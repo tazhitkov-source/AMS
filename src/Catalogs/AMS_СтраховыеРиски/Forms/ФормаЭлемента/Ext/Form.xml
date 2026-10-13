@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СодержаниеФормы" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СодержаниеФормыРасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<Page name="Основная" id="58">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОсновнаяРасширеннаяПодсказка" id="59"/>
+					<ChildItems>
+						<InputField name="Код" id="1">
+							<DataPath>Объект.Code</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="НаименованиеПолное" id="10">
+							<DataPath>Объект.НаименованиеПолное</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="Родитель" id="19">
+							<DataPath>Объект.Parent</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РодительКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="ВидСтрахования" id="22">
+							<DataPath>Объект.ВидСтрахования</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВидСтрахованияКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ВидСтрахованияРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="ПравилоСтрахования" id="28">
+							<DataPath>Объект.ПравилоСтрахования</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПравилоСтрахованияКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ПравилоСтрахованияРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="КодПриОбменеСРСА" id="34">
+							<DataPath>Объект.КодПриОбменеСРСА</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КодПриОбменеСРСАКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="КодПриОбменеСРСАРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<CheckBoxField name="ИспользуетсяКакДополнительноеУсловие" id="31">
+							<DataPath>Объект.ИспользуетсяКакДополнительноеУсловие</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользуетсяКакДополнительноеУсловиеКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ИспользуетсяКакДополнительноеУсловиеРасширеннаяПодсказка" id="33"/>
+						</CheckBoxField>
+						<CheckBoxField name="ПакетРисков" id="25">
+							<DataPath>Объект.ПакетРисков</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПакетРисковКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ПакетРисковРасширеннаяПодсказка" id="27"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаЭлементарныеРиски" id="67">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Элементарные риски</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа элементарные риски</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаЭлементарныеРискиРасширеннаяПодсказка" id="68"/>
+					<ChildItems>
+						<Table name="ЭлементарныеРиски" id="37">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ЭлементарныеРиски</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЭлементарныеРискиКонтекстноеМеню" id="38"/>
+							<AutoCommandBar name="ЭлементарныеРискиКоманднаяПанель" id="39"/>
+							<ExtendedTooltip name="ЭлементарныеРискиРасширеннаяПодсказка" id="40"/>
+							<SearchStringAddition name="ЭлементарныеРискиСтрокаПоиска" id="41">
+								<AdditionSource>
+									<Item>ЭлементарныеРиски</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЭлементарныеРискиСтрокаПоискаКонтекстноеМеню" id="42"/>
+								<ExtendedTooltip name="ЭлементарныеРискиСтрокаПоискаРасширеннаяПодсказка" id="43"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЭлементарныеРискиСостояниеПросмотра" id="44">
+								<AdditionSource>
+									<Item>ЭлементарныеРиски</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЭлементарныеРискиСостояниеПросмотраКонтекстноеМеню" id="45"/>
+								<ExtendedTooltip name="ЭлементарныеРискиСостояниеПросмотраРасширеннаяПодсказка" id="46"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЭлементарныеРискиУправлениеПоиском" id="47">
+								<AdditionSource>
+									<Item>ЭлементарныеРиски</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЭлементарныеРискиУправлениеПоискомКонтекстноеМеню" id="48"/>
+								<ExtendedTooltip name="ЭлементарныеРискиУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ЭлементарныеРискиНомерСтроки" id="50">
+									<DataPath>Объект.ЭлементарныеРиски.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЭлементарныеРискиНомерСтрокиКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="ЭлементарныеРискиНомерСтрокиРасширеннаяПодсказка" id="52"/>
+								</LabelField>
+								<InputField name="ЭлементарныеРискиРиск" id="53">
+									<DataPath>Объект.ЭлементарныеРиски.Риск</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ЭлементарныеРискиРискКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="ЭлементарныеРискиРискРасширеннаяПодсказка" id="55"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаКомментарий" id="60">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа комментарий</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="61"/>
+					<ChildItems>
+						<InputField name="Комментарий" id="16">
+							<DataPath>Объект.Комментарий</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="18"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ДополнительнаяИнформация" id="62">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДополнительнаяИнформацияРасширеннаяПодсказка" id="63"/>
+					<ChildItems>
+						<InputField name="ГУИД" id="7">
+							<DataPath>Объект.ГУИД</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ГУИДКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ГУИДРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="ГУИДЦССУ" id="64">
+							<DataPath>Объект.ГУИДЦССУ</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ГУИДЦССУКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="ГУИДЦССУРасширеннаяПодсказка" id="66"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Ответственный" id="13">
+			<DataPath>Объект.Ответственный</DataPath>
+			<Enabled>false</Enabled>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="15"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.AMS_СтраховыеРиски</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

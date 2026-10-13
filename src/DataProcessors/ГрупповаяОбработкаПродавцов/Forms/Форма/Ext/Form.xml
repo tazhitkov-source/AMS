@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Изменение данных продавца</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаИзменение" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа изменение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа изменение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИзменениеРасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<InputField name="ИзменяемыйРеквизит" id="53">
+					<DataPath>ИзменяемыйРеквизит</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизит</v8:content>
+						</v8:item>
+					</Title>
+					<DropListButton>true</DropListButton>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Канал продаж</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">КаналПродаж</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Подканал продаж</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">ПодканалПродаж</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Вид территории</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">ВидТерритории</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Куратор</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Куратор</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ИзменяемыйРеквизитКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ИзменяемыйРеквизитРасширеннаяПодсказка" id="55"/>
+					<Events>
+						<Event name="OnChange">ИзменяемыйРеквизитПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="НовоеЗначение" id="60">
+					<DataPath>НовоеЗначение</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НовоеЗначениеКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="НовоеЗначениеРасширеннаяПодсказка" id="62"/>
+				</InputField>
+				<Button name="Изменить" id="58">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Изменить</CommandName>
+					<ExtendedTooltip name="ИзменитьРасширеннаяПодсказка" id="59"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ШапкаГруппы" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка группы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка группы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаГруппыРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<UsualGroup name="ЛеваяКолонка" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Левая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Левая колонка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ЛеваяКолонкаРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<Table name="Список" id="1">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Список</DataPath>
+							<RowPictureDataPath>~Список.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+							<AutoCommandBar name="СписокКоманднаяПанель" id="3">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
+							<SearchStringAddition name="СписокСтрокаПоиска" id="5">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокСостояниеПросмотра" id="8">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокУправлениеПоиском" id="11">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокСсылка" id="14">
+									<DataPath>Список.Ссылка</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продавец</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокСсылкаКонтекстноеМеню" id="15"/>
+									<ExtendedTooltip name="СписокСсылкаРасширеннаяПодсказка" id="16"/>
+								</LabelField>
+								<LabelField name="СписокКаналПродаж" id="17">
+									<DataPath>Список.КаналПродаж</DataPath>
+									<ContextMenu name="СписокКаналПродажКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="СписокКаналПродажРасширеннаяПодсказка" id="19"/>
+								</LabelField>
+								<LabelField name="СписокПодканалПродаж" id="20">
+									<DataPath>Список.ПодканалПродаж</DataPath>
+									<ContextMenu name="СписокПодканалПродажКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="СписокПодканалПродажРасширеннаяПодсказка" id="22"/>
+								</LabelField>
+								<LabelField name="СписокВидТерритории" id="23">
+									<DataPath>Список.ВидТерритории</DataPath>
+									<ContextMenu name="СписокВидТерриторииКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="СписокВидТерриторииРасширеннаяПодсказка" id="25"/>
+								</LabelField>
+								<LabelField name="СписокКуратор" id="26">
+									<DataPath>Список.Куратор</DataPath>
+									<ContextMenu name="СписокКураторКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="СписокКураторРасширеннаяПодсказка" id="28"/>
+								</LabelField>
+								<LabelField name="СписокАгент" id="29">
+									<DataPath>Список.Агент</DataPath>
+									<ContextMenu name="СписокАгентКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="СписокАгентРасширеннаяПодсказка" id="31"/>
+								</LabelField>
+								<LabelField name="СписокФилиал" id="32">
+									<DataPath>Список.Филиал</DataPath>
+									<ContextMenu name="СписокФилиалКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="СписокФилиалРасширеннаяПодсказка" id="34"/>
+								</LabelField>
+								<LabelField name="СписокАгентскийДоговор" id="63">
+									<DataPath>Список.АгентскийДоговор</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Договор</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокАгентскийДоговорКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="СписокАгентскийДоговорРасширеннаяПодсказка" id="65"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ПраваяКолонка" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правая колонка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПраваяКолонкаРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<LabelDecoration name="Отборы" id="50">
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отборы:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОтборыКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ОтборыРасширеннаяПодсказка" id="52"/>
+						</LabelDecoration>
+						<InputField name="ОтборКуратор" id="41">
+							<DataPath>ОтборКуратор</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Куратор</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Куратор</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ChoiceButton>true</ChoiceButton>
+							<ClearButton>true</ClearButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Куратор</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ОтборКураторКонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="ОтборКураторРасширеннаяПодсказка" id="43"/>
+							<Events>
+								<Event name="OnChange">ОтборКураторПриИзменении</Event>
+								<Event name="Clearing">ОтборКураторОчистка</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтборАгент" id="44">
+							<DataPath>ОтборАгент</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Агент</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Агент</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ClearButton>true</ClearButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Агент</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ОтборАгентКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ОтборАгентРасширеннаяПодсказка" id="46"/>
+							<Events>
+								<Event name="OnChange">ОтборАгентПриИзменении</Event>
+								<Event name="Clearing">ОтборАгентОчистка</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтборФилиал" id="47">
+							<DataPath>ОтборФилиал</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Филиал</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Филиал</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ClearButton>true</ClearButton>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Филиал</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ОтборФилиалКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ОтборФилиалРасширеннаяПодсказка" id="49"/>
+							<Events>
+								<Event name="OnChange">ОтборФилиалПриИзменении</Event>
+								<Event name="Clearing">ОтборФилиалОчистка</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ГрупповаяОбработкаПродавцов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Список" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	СправочникAMS_Продавцы.Ссылка КАК Ссылка,
+	СправочникAMS_Продавцы.Владелец КАК Агент,
+	AMS_ИнформацияОПродавцеСрезПоследних.АгентскийДоговор.Филиал КАК Филиал,
+	AMS_ИнформацияОПродавцеСрезПоследних.ВидТерритории КАК ВидТерритории,
+	AMS_ИнформацияОПродавцеСрезПоследних.КаналПродаж КАК КаналПродаж,
+	AMS_ИнформацияОПродавцеСрезПоследних.ПодканалПродаж КАК ПодканалПродаж,
+	AMS_ИнформацияОПродавцеСрезПоследних.Куратор КАК Куратор,
+	AMS_ИнформацияОПродавцеСрезПоследних.АгентскийДоговор КАК АгентскийДоговор
+ПОМЕСТИТЬ ВТ_ИнформацияОбщая
+ИЗ
+	Справочник.AMS_Продавцы КАК СправочникAMS_Продавцы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.AMS_ИнформацияОПродавце.СрезПоследних(, ) КАК AMS_ИнформацияОПродавцеСрезПоследних
+		ПО (AMS_ИнформацияОПродавцеСрезПоследних.Продавец = СправочникAMS_Продавцы.Ссылка)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ИнформацияОбщая.Ссылка КАК Ссылка,
+	ВТ_ИнформацияОбщая.Агент КАК Агент,
+	ВТ_ИнформацияОбщая.Филиал КАК Филиал,
+	ВТ_ИнформацияОбщая.ВидТерритории КАК ВидТерритории,
+	ВТ_ИнформацияОбщая.КаналПродаж КАК КаналПродаж,
+	ВТ_ИнформацияОбщая.ПодканалПродаж КАК ПодканалПродаж,
+	ВТ_ИнформацияОбщая.Куратор КАК Куратор,
+	AMS_СостояниеАгентскогоДоговораСрезПоследних.АгентскийДоговор КАК АгентскийДоговор
+ИЗ
+	ВТ_ИнформацияОбщая КАК ВТ_ИнформацияОбщая
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.AMS_СостояниеАгентскогоДоговора.СрезПоследних КАК AMS_СостояниеАгентскогоДоговораСрезПоследних
+		ПО ВТ_ИнформацияОбщая.АгентскийДоговор = AMS_СостояниеАгентскогоДоговораСрезПоследних.АгентскийДоговор
+ГДЕ
+	AMS_СостояниеАгентскогоДоговораСрезПоследних.Действует</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>АгентскийДоговор</dcssch:dataPath>
+					<dcssch:field>АгентскийДоговор</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Филиал</dcssch:dataPath>
+					<dcssch:field>Филиал</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Филиал</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Продавец</dcssch:dataPath>
+					<dcssch:field>Продавец</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Агент</dcssch:dataPath>
+					<dcssch:field>Агент</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПодканалПродаж</dcssch:dataPath>
+					<dcssch:field>ПодканалПродаж</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КаналПродаж</dcssch:dataPath>
+					<dcssch:field>КаналПродаж</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидТерритории</dcssch:dataPath>
+					<dcssch:field>ВидТерритории</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Куратор</dcssch:dataPath>
+					<dcssch:field>Куратор</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>Период</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>false</dcssch:useRestriction>
+				</Parameter>
+				<KeyField>Ссылка</KeyField>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ОтборКуратор" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор куратор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.AMS_Агенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтборАгент" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор агент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.AMS_Агенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтборФилиал" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор филиал</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.AMS_Филиалы</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИзменяемыйРеквизит" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменяемый реквизит</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НовоеЗначение" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новое значение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.AMS_Агенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.AMS_КаналыПродаж</v8:Type>
+				<v8:Type>cfg:EnumRef.AMS_ВидТерриторииКонтрагента</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Изменить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Изменить</Action>
+		</Command>
+	</Commands>
+</Form>

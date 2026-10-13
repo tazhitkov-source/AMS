@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="eb76adb5-beb5-455f-ba05-e416a705b65b">
+		<Name>ДоработкаКВ</Name>
+		<Code>00002</Code>
+		<Description>Доработка КВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a45064fb-3602-4268-a622-5b82d16070af">
+		<Name>ЗаявкаОтклонена</Name>
+		<Code>00004</Code>
+		<Description>Заявка отклонена</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0ba0912b-9b46-4b00-aee2-e4b2f727e6c0">
+		<Name>ИзмененениеРазмеровКомиссионногоВознагражденияУведомлениеАгента</Name>
+		<Code>00009</Code>
+		<Description>Измененение размеры комиссионного вознаграждения уведомление агента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e51f081f-2936-4778-bd7e-f8e8da4784dc">
+		<Name>Согласование</Name>
+		<Code>00001</Code>
+		<Description>Согласование</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0a6f0fb6-4675-41ed-b3a4-4a846aaded7a">
+		<Name>СогласованиеАндеррайтером</Name>
+		<Code>00006</Code>
+		<Description>Согласование андеррайтером</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="58d88c71-3f0e-4706-a18e-654156edea9a">
+		<Name>СогласованиеДиректоромФилиала</Name>
+		<Code>00007</Code>
+		<Description>Согласование директором филиала</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ff61a6e7-ed89-4848-b672-a6d25b096b0f">
+		<Name>СогласованиеКураторомКаналаПродаж</Name>
+		<Code>00005</Code>
+		<Description>Согласование куратором канала продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ceac7346-932c-4a73-9686-3fa2e9470b35">
+		<Name>СогласованиеРуководителемРегиональнойДирекции</Name>
+		<Code>00008</Code>
+		<Description>Согласование руководителем региональной дирекции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e02619b6-7e93-4aee-8042-db88a5f0dbde">
+		<Name>СогласованоКВ</Name>
+		<Code>00003</Code>
+		<Description>Согласовано КВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dc327b06-f191-4b3b-b528-afd1096229e3">
+		<Name>УведомлениеОНеобходимостиПодписания</Name>
+		<Code>00012</Code>
+		<Description>Уведомление о необходимости подписания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="044cc4c0-f203-46f3-ba9a-f9ece41dceed">
+		<Name>УведомлениеОПодписанииДополнительногоСоглашения</Name>
+		<Code>00013</Code>
+		<Description>Уведомление о подписании дополнительного соглашения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca392fe7-53a8-4625-937c-2296bb779d06">
+		<Name>УведомлениеОбИзмененииКВ</Name>
+		<Code>00011</Code>
+		<Description>Уведомление об изменении КВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ea994213-308a-44cc-8e0b-ee76946686e8">
+		<Name>ФормированиеДополнительногоСоглашения</Name>
+		<Code>00010</Code>
+		<Description>Формирование дополнительного соглашения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ВариантНастройки" id="10">
+			<ContextMenu name="ВариантНастройкиКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВариантНастройкиРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="РежимВыгрузкиСправочников" id="7">
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РежимВыгрузкиСправочниковКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РежимВыгрузкиСправочниковРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="RabbitMQ" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Rabbit MQ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Rabbit MQ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ExtendedTooltip name="RabbitMQРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="АдресПодключения" id="15">
+					<DataPath>Объект.Адрес</DataPath>
+					<ContextMenu name="АдресПодключенияКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="АдресПодключенияРасширеннаяПодсказка" id="17"/>
+				</InputField>
+				<InputField name="Порт" id="18">
+					<DataPath>Объект.Порт</DataPath>
+					<ContextMenu name="ПортКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="20"/>
+				</InputField>
+				<InputField name="Логин" id="21">
+					<DataPath>Объект.Логин</DataPath>
+					<ContextMenu name="ЛогинКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="23"/>
+				</InputField>
+				<InputField name="Пароль" id="26">
+					<DataPath>Объект.Пароль</DataPath>
+					<PasswordMode>true</PasswordMode>
+					<ContextMenu name="ПарольКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ВиртуальныйХост" id="29">
+					<DataPath>Объект.ВиртуальныйХост</DataPath>
+					<ContextMenu name="ВиртуальныйХостКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ВиртуальныйХостРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ТочкаОбмена" id="32">
+					<DataPath>Объект.ТочкаОбменаПолучение</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка обмена (загрузка)</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТочкаОбменаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТочкаОбменаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ИмяОчереди" id="35">
+					<DataPath>Объект.ИмяОчередиПолучение</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя очереди (загрузка)</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИмяОчередиКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ИмяОчередиРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ТочкаОбменаОтправка" id="38">
+					<DataPath>Объект.ТочкаОбменаОтправка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Точка обмена (отправка)</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТочкаОбменаОтправкаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТочкаОбменаОтправкаРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ИмяОчередиОтправка" id="41">
+					<DataPath>Объект.ИмяОчередиОтправка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя очереди (отправка)</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИмяОчередиОтправкаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ИмяОчередиОтправкаРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="Интеграция" id="70">
+					<DataPath>Объект.Интеграция</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИнтеграцияКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="ИнтеграцияРасширеннаяПодсказка" id="72"/>
+				</InputField>
+				<InputField name="РазмерПорции" id="44">
+					<DataPath>Объект.РазмерПорции</DataPath>
+					<ContextMenu name="РазмерПорцииКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="РазмерПорцииРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИсключения" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исключения из обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа исключения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ExtendedTooltip name="ГруппаИсключенияРасширеннаяПодсказка" id="67"/>
+			<ChildItems>
+				<Table name="ИсключенияИзОбмена" id="47">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ИсключенияИзОбмена</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ИсключенияИзОбменаКонтекстноеМеню" id="48"/>
+					<AutoCommandBar name="ИсключенияИзОбменаКоманднаяПанель" id="49">
+						<ChildItems>
+							<Button name="ИсключенияИзОбменаУдалить" id="68">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Item.ИсключенияИзОбмена.StandardCommand.Delete</CommandName>
+								<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+								<ExtendedTooltip name="ИсключенияИзОбменаУдалитьРасширеннаяПодсказка" id="69"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ИсключенияИзОбменаРасширеннаяПодсказка" id="50"/>
+					<SearchStringAddition name="ИсключенияИзОбменаСтрокаПоиска" id="51">
+						<AdditionSource>
+							<Item>ИсключенияИзОбмена</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИсключенияИзОбменаСтрокаПоискаКонтекстноеМеню" id="52"/>
+						<ExtendedTooltip name="ИсключенияИзОбменаСтрокаПоискаРасширеннаяПодсказка" id="53"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ИсключенияИзОбменаСостояниеПросмотра" id="54">
+						<AdditionSource>
+							<Item>ИсключенияИзОбмена</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИсключенияИзОбменаСостояниеПросмотраКонтекстноеМеню" id="55"/>
+						<ExtendedTooltip name="ИсключенияИзОбменаСостояниеПросмотраРасширеннаяПодсказка" id="56"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ИсключенияИзОбменаУправлениеПоиском" id="57">
+						<AdditionSource>
+							<Item>ИсключенияИзОбмена</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ИсключенияИзОбменаУправлениеПоискомКонтекстноеМеню" id="58"/>
+						<ExtendedTooltip name="ИсключенияИзОбменаУправлениеПоискомРасширеннаяПодсказка" id="59"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ИсключенияИзОбменаНомерСтроки" id="60">
+							<DataPath>Объект.ИсключенияИзОбмена.LineNumber</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ИсключенияИзОбменаНомерСтрокиКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="ИсключенияИзОбменаНомерСтрокиРасширеннаяПодсказка" id="62"/>
+						</LabelField>
+						<InputField name="ИсключенияИзОбменаИсключения" id="63">
+							<DataPath>Объект.ИсключенияИзОбмена.Исключения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИсключенияИзОбменаИсключенияКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="ИсключенияИзОбменаИсключенияРасширеннаяПодсказка" id="65"/>
+							<Events>
+								<Event name="ChoiceProcessing">ИсключенияИзОбменаИсключенияОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExchangePlanObject.РеестрыПоПремиальнымПрограммам</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроверитьПодключениеRabbitMQ" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение к RabbitMQ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение rabbit MQ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьПодключениеRabbitMQ</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<CommandBar>
+			<Item>
+				<Command>Form.Command.ПроверитьПодключениеRabbitMQ</Command>
+				<Type>Added</Type>
+				<CommandGroup>CommandGroup.ПараметрыСинхронизацииДанных</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
+</Form>

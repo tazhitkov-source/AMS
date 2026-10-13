@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="e5dad336-451a-41ed-b9b4-a87e77b66ad7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.AMS_ТипыСтраховыхПродуктовПоНС" category="Ref">
+				<xr:TypeId>202a9cb9-3ee4-4b72-a9b1-489433639d0a</xr:TypeId>
+				<xr:ValueId>58260538-f9e4-44b7-a4e1-5bcc66e1cab2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.AMS_ТипыСтраховыхПродуктовПоНС" category="Manager">
+				<xr:TypeId>0e7f1ea4-d1b3-4b42-a2b0-519e6e6c5a34</xr:TypeId>
+				<xr:ValueId>82627a94-168d-4ab3-b2c8-1dc055943e97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.AMS_ТипыСтраховыхПродуктовПоНС" category="List">
+				<xr:TypeId>2c6f0944-08bc-4571-b7ab-a74bce538ae5</xr:TypeId>
+				<xr:ValueId>c3768a3e-9328-4211-a8a4-04702e8ed799</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>AMS_ТипыСтраховыхПродуктовПоНС</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы страховых продуктов по НС</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e8b225f1-d43f-48e4-a99b-d40d594080a2">
+				<Properties>
+					<Name>КоробочныйПродукт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коробочный продукт</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a2834864-6b4a-4b45-ac75-302d640fcbcf">
+				<Properties>
+					<Name>КоллективныйПродукт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коллективный продукт</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ef406e64-8a71-49d3-a290-44446137de39">
+				<Properties>
+					<Name>БанковскийПродукт</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Банковский продукт</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="45a479c5-717b-46b1-8bcf-ba5eb9f79a5d">
+				<Properties>
+					<Name>СтрахованиеДетейИлиСтрахованиеФизЛиц</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страхование детей или страхование физ лиц</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

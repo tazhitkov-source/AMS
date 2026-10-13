@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="f98df58f-eca1-451a-bc74-a57addf620e8">
+		<Name>КоличествоБаловПоКритериюБольшеИлиРавна</Name>
+		<Code>000000005</Code>
+		<Description>Кол-во баллов по каждому критерию больше или равно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e4296d76-0648-4c31-ba95-4fae8f40cfa8">
+		<Name>КоличествоДоговоровПоКритериюБольшеИлиРавна</Name>
+		<Code>000000004</Code>
+		<Description>Кол-во договоров (в шт.) по каждому критерию больше или равно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2da31fd8-8865-41e4-a9b1-bf89cd7d838a">
+		<Name>СборыПоКритериюБольшеИлиРавно</Name>
+		<Code>000000006</Code>
+		<Description>Сборы по каждому критерию больше или равны</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f40328e6-eaa5-4f37-844a-afc18d96ba85">
+		<Name>СуммаБаловБольшеИлиРавна</Name>
+		<Code>000000002</Code>
+		<Description>Сумма баллов по всем критериям больше или равна</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="34d0c9f9-af01-4b80-bb8f-0f25484cc2df">
+		<Name>СуммаДоговоровБольшеИлиРавна</Name>
+		<Code>000000001</Code>
+		<Description>Сумма договоров (в шт.) по всем критериям больше или равна</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6d5bfc8f-b13f-4a7a-b334-6d4bbcfc8839">
+		<Name>СуммаСборовБольшеИлиРавна</Name>
+		<Code>000000003</Code>
+		<Description>Сумма сборов по всем критериям больше или равна</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

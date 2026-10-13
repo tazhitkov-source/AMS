@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Период" id="1">
+			<DataPath>Запись.Period</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Банк" id="4">
+			<DataPath>Запись.Банк</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="БанкКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="БанкРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Риск" id="7">
+			<DataPath>Запись.Риск</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РискКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РискРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="РазмерКВ" id="10">
+			<DataPath>Запись.РазмерКВ</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РазмерКВКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="РазмерКВРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ДатаНачалаДействия" id="19">
+			<DataPath>Запись.ДатаНачалаДействия</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаНачалаДействияКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДатаНачалаДействияРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ДатаОкончанияДействия" id="13">
+			<DataPath>Запись.ДатаОкончанияДействия</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаОкончанияДействияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДатаОкончанияДействияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ГУИД" id="16">
+			<DataPath>Запись.ГУИД</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ГУИДКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ГУИДРасширеннаяПодсказка" id="18"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.AMS_РазмерыКВБанков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

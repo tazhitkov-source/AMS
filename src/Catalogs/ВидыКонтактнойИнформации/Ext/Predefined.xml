@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="8d719941-07bd-42c7-a022-2b6bbb1f890d">
+		<Name>СправочникAMS_Агенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Агенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="c7e11cf8-41cb-4338-a3ff-1d80c00ab247">
+				<Name>ПочтовыйАдресАгента</Name>
+				<Code/>
+				<Description>Почтовый адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c7f52056-c5cf-4e81-b9f8-580e1b83e651">
+				<Name>ТелефонАгенты</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="796b90f6-2a75-47bc-8f5b-acb3192a87e2">
+				<Name>ФактическийАдресАгента</Name>
+				<Code/>
+				<Description>Фактический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="97504b06-0a24-44b9-abad-05b657455470">
+				<Name>EmailАгенты</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="dc6d5e4c-22ca-47b3-ac7f-6dd45ee28be5">
+				<Name>ЮридическийАдресАгента</Name>
+				<Code/>
+				<Description>Юридический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="8c2c0746-332e-4841-b446-87eba87b9d64">
+		<Name>СправочникAMS_Банки</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Банки"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="2b5da310-05f4-44a2-b093-dc995135bfed">
+				<Name>ПочтовыйАдресБанка</Name>
+				<Code/>
+				<Description>Почтовый адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2938fb74-f9f3-436a-b82e-34dd64186d13">
+				<Name>ТелефонБанк</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f8e620b3-3a75-43bc-9fcb-e03c22857b64">
+				<Name>ФактическийАдресБанк</Name>
+				<Code/>
+				<Description>Фактический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="28cf1895-926d-4f4d-8547-d89f940df7b0">
+				<Name>EmailБанк</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="01601619-b27f-4977-af12-88a0a94dd302">
+				<Name>ЮридическийАдресБанк</Name>
+				<Code/>
+				<Description>Юридический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="90d6201e-9d29-4957-85fd-a2982da7f904">
+		<Name>СправочникAMS_Контрагенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контрагенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="26d9522b-4050-45c7-b765-9cf492e694f7">
+				<Name>ТелефонКонтрагента</Name>
+				<Code/>
+				<Description>Телефон контрагента</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b6a9ae27-c8ea-46f1-a5a7-d50a7666f239">
+				<Name>ФактическийАдресКонтрагента</Name>
+				<Code/>
+				<Description>Фактический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="511bf202-baa9-4c31-934b-023a3a4f7f71">
+				<Name>EmailКонтрагента</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="898490ce-938f-4b9f-a068-557b3596415b">
+				<Name>ЮридическийАдресКонтрагента</Name>
+				<Code/>
+				<Description>Юридический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="19e5d992-f282-4719-bfba-2711f56cbcf9">
+		<Name>СправочникAMS_Организации</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Организации"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="57b3cc63-4936-48fd-b418-6611513498f2">
+				<Name>EmailОрганизации</Name>
+				<Code/>
+				<Description>Email организации</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a46514f6-ca2d-4c4b-836f-80371742f81b">
+				<Name>ПочтовыйАдресОрганизации</Name>
+				<Code/>
+				<Description>Почтовый адрес организации</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="73a2b6c3-a593-45dd-9e67-357ab6bf16f7">
+				<Name>ТелефонОрганизации</Name>
+				<Code/>
+				<Description>Телефон организации</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c4c15c62-6cca-48fb-8937-8d79de4a3c73">
+				<Name>ФактическийАдресОрганизации</Name>
+				<Code/>
+				<Description>Фактический адрес организации</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7c57109b-f6ba-4bf0-ac6a-36ea98966b71">
+				<Name>ЮридическийАдресОрганизации</Name>
+				<Code/>
+				<Description>Юридический адрес организации</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="8cbaa30d-faab-45ad-880e-84f8b421f448">
+		<Name>СправочникПользователи</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Пользователи"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="35dccbf2-dcce-4160-91a0-9697dd21aa79">
+				<Name>ТелефонПользователя</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b930f2d1-4c2b-4f78-a697-4b87e83c8dd0">
+				<Name>EmailПользователя</Name>
+				<Code/>
+				<Description>Электронная почта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="3a508511-7652-4e77-9068-81d7a56b26f7">
+		<Name>СправочникAMS_Продавцы</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Продавцы"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="0cedc5a0-b4e6-4f6c-8eda-c8b081f28021">
+				<Name>ТелефонПродавцы</Name>
+				<Code/>
+				<Description>Телефон продавцы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="bc946ecf-f841-4b63-affe-df378c10292b">
+		<Name>СправочникAMS_СотрудникиОрганизации</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Сотрудники"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="9cbb8e2f-1d1a-4aa9-8759-8e9c5c8f98b9">
+				<Name>ТелефонСотрудникиОрганизации</Name>
+				<Code/>
+				<Description>Телефон сотрудника</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="15926e9c-f999-4a4e-a986-4f4c2a4f9c15">
+		<Name>СправочникAMS_ФизическиеЛица</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Физические лица"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="f8d00503-ab71-467f-b67b-6b8668db2698">
+				<Name>EmailФизЛица</Name>
+				<Code/>
+				<Description>Email физ лица</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="389df8fc-d572-4e52-8274-2f97d72be343">
+				<Name>ПочтовыйАдресФизЛица</Name>
+				<Code/>
+				<Description>Почтовый адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="89bdc8b3-6664-43c2-b5c2-3317f73b9dd6">
+				<Name>ТелефонФизЛица</Name>
+				<Code/>
+				<Description>Телефон физического лица</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b6571654-9067-42be-9221-c0b84b157c5c">
+				<Name>ФактическийАдресФизЛица</Name>
+				<Code/>
+				<Description>Фактический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2e7ed723-7818-4dcc-9838-867d5724095a">
+				<Name>ЮридическийАдресФизЛица</Name>
+				<Code/>
+				<Description>Юридический адрес</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="c70de3af-f0b7-43a4-af68-fbd9d7f555c1">
+		<Name>СправочникAMS_ПользователиСистем</Name>
+		<Code/>
+		<Description>Справочник AMS пользователи систем</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="ff222942-6d14-49ff-946b-f9409062bf6f">
+				<Name>ТелефонПользователяСистем</Name>
+				<Code/>
+				<Description>Телефон пользователя систем</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="50adf549-fa23-4c45-81db-f4b28f4f1f0b">
+				<Name>EmailПользователяСистем</Name>
+				<Code/>
+				<Description>Электронная почта пользователя систем</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

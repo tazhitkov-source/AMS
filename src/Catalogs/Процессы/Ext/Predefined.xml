@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="dd3b526b-ddd0-497d-8071-72b50b5c6cc2">
+		<Name>ПодписаниеЗаявкиОИзмененииАД</Name>
+		<Code>000000002</Code>
+		<Description>Подписание заявки о изме</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8539ed41-1b23-41a6-822b-7b51ca16de07">
+		<Name>СогласованиеЗаявкиОИзмененииАД</Name>
+		<Code>000000001</Code>
+		<Description>Согласование заявки о изм</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a81a45e6-0611-4cac-819c-4b24228dd514">
+		<Name>УтверждениеЗаявкиНаИзменениеАД</Name>
+		<Code>000000003</Code>
+		<Description>Утверждение заявки на АД</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

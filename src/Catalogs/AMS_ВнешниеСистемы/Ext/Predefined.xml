@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="e69a318e-0ba3-44d5-8784-cb29393e190b">
+		<Name>AMS</Name>
+		<Code xsi:type="xs:decimal">1</Code>
+		<Description>AMS</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9deaafd4-0517-432f-bb24-f0666abf10a8">
+		<Name>BRMS</Name>
+		<Code xsi:type="xs:decimal">7</Code>
+		<Description>BRMS</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1f8b1b60-f997-4e2e-8525-afe76449af3c">
+		<Name>ВИПП</Name>
+		<Code xsi:type="xs:decimal">4</Code>
+		<Description>ВИПП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e12b7238-77ec-4041-b228-032231dcf183">
+		<Name>ВОПП</Name>
+		<Code xsi:type="xs:decimal">3</Code>
+		<Description>ВОПП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="adcf7a92-1487-45b4-b0b6-71c830f2fc0c">
+		<Name>КИАС</Name>
+		<Code xsi:type="xs:decimal">10</Code>
+		<Description>КИАС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b2971f7a-1407-4404-870d-191536c51770">
+		<Name>СВЖС</Name>
+		<Code xsi:type="xs:decimal">5</Code>
+		<Description>СВЖС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="22be8705-974d-4c1d-94a3-897d547f4a2c">
+		<Name>СОРВ</Name>
+		<Code xsi:type="xs:decimal">2</Code>
+		<Description>СОРВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0d865795-af49-4d42-b291-f2c8ffb3c5b4">
+		<Name>ЦССУ</Name>
+		<Code xsi:type="xs:decimal">6</Code>
+		<Description>ЦССУ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a38443e4-37c7-4166-8475-4c185fdcc18d">
+		<Name>Ю_Про2_0</Name>
+		<Code xsi:type="xs:decimal">8</Code>
+		<Description>Ю - про 2.0</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c9a8c602-3b15-4780-ac93-97f5f7df442f">
+		<Name>Ю_Про3_0</Name>
+		<Code xsi:type="xs:decimal">9</Code>
+		<Description>Ю - про 3.0</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

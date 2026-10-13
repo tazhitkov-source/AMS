@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="793ceab7-0fef-4f94-a6ec-4c01f9e5f782">
+		<Name>ТипДанныхGUID</Name>
+		<Code>000000005</Code>
+		<Description>Тип данных GUID</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0aa78ad9-7ac8-4c8f-85c2-7b40d29f7366">
+		<Name>ТипДанныхБулево</Name>
+		<Code>000000002</Code>
+		<Description>Тип данных булево</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="def434a3-be41-4d52-9abd-2ca5096e61e0">
+		<Name>ТипДанныхДатаИВремя</Name>
+		<Code>000000004</Code>
+		<Description>Тип данных дата и время</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b61c3e06-a5c7-457c-94f1-7014e0428977">
+		<Name>ТипДанныхСтрока</Name>
+		<Code>000000003</Code>
+		<Description>Тип данных строка(200)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f11f1e82-7d57-4b26-9de4-6521327c466c">
+		<Name>ТипДанныхЧисло</Name>
+		<Code>000000001</Code>
+		<Description>Тип данных число (17,5)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

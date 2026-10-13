@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="18673f1f-abdc-46cf-a9bd-2805ec6e30b9">
+		<Name>ВыплатаСтрахСуммы</Name>
+		<Code>000000014</Code>
+		<Description>Выплата страховой суммы (при Хищении ТС или при условии передачи поврежденного ТС Страховщику).Выпла</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="10fe0a43-9ed0-48dc-aa16-da02d658b087">
+		<Name>ВыплатаСтрахСуммы_НаДату</Name>
+		<Code>000000013</Code>
+		<Description>Выплата страховой суммы на дату страхового случая (при Хищении ТС или при условии передачи поврежден</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="33b60708-0e5a-475d-9f2e-3a2c21b782be">
+		<Name>Денежная</Name>
+		<Code>000000001</Code>
+		<Description>Денежная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2ed79b33-d148-4fa3-8f39-d60035964810">
+		<Name>Ремонт_СТОАДилера_Исключение_Тотал_ИПоврежденияСтеклЭлем</Name>
+		<Code>000000011</Code>
+		<Description>Ремонт на СТОА дилера по направлению Страховщика, за исключением случаев повреждения стеклянных элем</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="585ec5b7-1dc2-446e-86ec-a016c9d275f0">
+		<Name>Ремонт_НаДилере_Исключение_ТоталТС_БезУчетаИзноса</Name>
+		<Code>000000002</Code>
+		<Description>Ремонт на СТОА дилера по направлению Страховщика, за исключением случаев тотального повреждения ТС. </Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7305c7a7-be89-420f-b1b6-4f3b372556f3">
+		<Name>Ремонт_СТОАДилера_Исключение_Тотал_СУчетомИзноса</Name>
+		<Code>000000012</Code>
+		<Description>Ремонт на СТОА дилера по направлению Страховщика, за исключением случаев тотального повреждения ТС. </Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1e509446-a206-4dd4-a193-832e211f88c5">
+		<Name>Ремонт_ПоВыборуСтрахователя</Name>
+		<Code>000000003</Code>
+		<Description>Ремонт на СТОА по выбору страхователя</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f227966c-287c-4451-8e3d-b8c76dcf8e39">
+		<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал</Name>
+		<Code>000000004</Code>
+		<Description>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e29ad89e-d718-433b-babc-1a6da1b1b675">
+		<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_С_учетом_Износа</Name>
+		<Code>000000005</Code>
+		<Description>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС. C учето</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e796dbce-17f1-4c00-9620-dbb02cce39db">
+		<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_Без_учета_Износа</Name>
+		<Code>000000006</Code>
+		<Description>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС. Без уче</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a6d25310-6771-4a70-9f4d-20851d0dd9e5">
+		<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_НаправлениеНаДилера</Name>
+		<Code>000000007</Code>
+		<Description>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС. Страхов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bbb8186e-83ef-46a4-a436-471dbdf78967">
+		<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_НаправлениеНаДилера_БезУчИзноса</Name>
+		<Code>000000008</Code>
+		<Description>Ремонт на СТОА по направлению Страховщика,за искл.случаев тотального поврежд. ТС.Страховщик вправе в</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="96c830c6-b7de-42d6-9ec3-59a4b604065e">
+		<Name>Ремонт_Универсальный_C_УчетомИзноса</Name>
+		<Code>000000009</Code>
+		<Description>Ремонт на универсальной СТОА. C учетом износа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="88c64595-c0d5-4440-ac7d-461f17f7c8eb">
+		<Name>Ремонт_Универсальный_Без_УчетаИзноса</Name>
+		<Code>000000010</Code>
+		<Description>Ремонт на универсальном СТОА. Без учета износа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

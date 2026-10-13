@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОбработатьСообщение" id="22">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбработатьСообщение</CommandName>
+				<ExtendedTooltip name="ФормаОбработатьСообщениеРасширеннаяПодсказка" id="23"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Идентификатор" id="1">
+			<DataPath>Запись.Идентификатор</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Сообщение" id="4">
+			<DataPath>Запись.Сообщение</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СообщениеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="СообщениеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<CheckBoxField name="Обработано" id="7">
+			<DataPath>Запись.Обработано</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОбработаноКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОбработаноРасширеннаяПодсказка" id="9"/>
+		</CheckBoxField>
+		<InputField name="ВидСообщения" id="10">
+			<DataPath>Запись.ВидСообщения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидСообщенияКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВидСообщенияРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ПланОбмена" id="13">
+			<DataPath>Запись.ПланОбмена</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПланОбменаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПланОбменаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ДатаСообщения" id="16">
+			<DataPath>Запись.ДатаСообщения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаСообщенияКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДатаСообщенияРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ДатаОбработки" id="19">
+			<DataPath>Запись.ДатаОбработки</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаОбработкиКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДатаОбработкиРасширеннаяПодсказка" id="21"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.AMS_ЖурналСообщений</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбработатьСообщение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработать сообщение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбработатьСообщение</Action>
+		</Command>
+	</Commands>
+</Form>

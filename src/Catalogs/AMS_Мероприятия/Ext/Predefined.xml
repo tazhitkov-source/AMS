@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="0a3826cf-f3a3-42e2-9f61-55755c25c9a7">
+		<Name>Конкурс</Name>
+		<Code>000000002</Code>
+		<Description>Конкурс</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f6330577-8a82-43cd-8b79-be82f9587d8d">
+		<Name>Рейтинг</Name>
+		<Code>000000001</Code>
+		<Description>Рейтинг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

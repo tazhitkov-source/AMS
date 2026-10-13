@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="63acff72-f608-4c77-a167-979ffd8aa647">
+		<Name>ВыделеннаяЛинияПоддержки</Name>
+		<Code>008</Code>
+		<Description>Выделенная линия поддержки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e24013d5-9343-4dd8-8af4-62d2388821b8">
+		<Name>КвартальныйБонус</Name>
+		<Code>003</Code>
+		<Description>Квартальный бонус</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="66fcbb0c-2fbd-4f26-86cd-efd55ee4e0f4">
+		<Name>КлубВершина</Name>
+		<Code>009</Code>
+		<Description>Клуб  "Вершина"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f8c8b907-485d-481d-830d-cfab0c75cdbe">
+		<Name>Конкурсы</Name>
+		<Code>004</Code>
+		<Description>Конкурсы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="50dbb9be-672c-4264-88ec-41b9df018390">
+		<Name>Обучение</Name>
+		<Code>007</Code>
+		<Description>Обучение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bafb2f42-1344-44c5-b941-3e56eb2b69e2">
+		<Name>ОфлайнФорумы</Name>
+		<Code>005</Code>
+		<Description>Офлайн форумы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="62553be8-cf9a-4656-82db-3d0b40dbb2bd">
+		<Name>ПрограммаПреимущество</Name>
+		<Code>002</Code>
+		<Description>Программа "Преимущество"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b6201644-afe9-49fe-877d-b798156c09d6">
+		<Name>УдаленнаяТочкаУрегулирования</Name>
+		<Code>011</Code>
+		<Description>Удаленная точка урегулирования</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1e1bea62-0089-4e0a-955d-5fcfe736ee68">
+		<Name>Франшиза</Name>
+		<Code>010</Code>
+		<Description>Франшиза</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="afd3d26a-f007-4f90-9e72-9b73a523de80">
+		<Name>ЦентрализованнаяПоддержкаПродаж</Name>
+		<Code>001</Code>
+		<Description>Централизованная поддержка продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ae044c0-b8cd-473a-97df-ec38ed514662">
+		<Name>ЮгорскиеКаникулы</Name>
+		<Code>006</Code>
+		<Description>Югорские каникулы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

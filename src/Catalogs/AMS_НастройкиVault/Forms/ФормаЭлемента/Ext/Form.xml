@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаТест" id="49">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Тест</CommandName>
+				<ExtendedTooltip name="ФормаТестРасширеннаяПодсказка" id="50"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Интеграция" id="19">
+			<DataPath>Объект.Интеграция</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИнтеграцияКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ИнтеграцияРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="АдресСервера" id="7">
+			<DataPath>Объект.АдресСервера</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="АдресСервераКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="АдресСервераРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="Авторизация" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Авторизация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Авторизация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="АвторизацияРасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<InputField name="RoleID" id="10">
+					<DataPath>Объект.RoleID</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="RoleIDКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="RoleIDРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="SecretID" id="13">
+					<DataPath>Объект.SecretID</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пароль</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="SecretIDКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="SecretIDРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ПараметрыПоСредамИсполнения" id="22">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ПараметрыПоСредамИсполнения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПараметрыПоСредамИсполненияКонтекстноеМеню" id="23"/>
+			<AutoCommandBar name="ПараметрыПоСредамИсполненияКоманднаяПанель" id="24"/>
+			<ExtendedTooltip name="ПараметрыПоСредамИсполненияРасширеннаяПодсказка" id="25"/>
+			<SearchStringAddition name="ПараметрыПоСредамИсполненияСтрокаПоиска" id="26">
+				<AdditionSource>
+					<Item>ПараметрыПоСредамИсполнения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПараметрыПоСредамИсполненияСтрокаПоискаКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ПараметрыПоСредамИсполненияСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПараметрыПоСредамИсполненияСостояниеПросмотра" id="29">
+				<AdditionSource>
+					<Item>ПараметрыПоСредамИсполнения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПараметрыПоСредамИсполненияСостояниеПросмотраКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="ПараметрыПоСредамИсполненияСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПараметрыПоСредамИсполненияУправлениеПоиском" id="32">
+				<AdditionSource>
+					<Item>ПараметрыПоСредамИсполнения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПараметрыПоСредамИсполненияУправлениеПоискомКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="ПараметрыПоСредамИсполненияУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПараметрыПоСредамИсполненияНомерСтроки" id="35">
+					<DataPath>Объект.ПараметрыПоСредамИсполнения.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПараметрыПоСредамИсполненияНомерСтрокиКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ПараметрыПоСредамИсполненияНомерСтрокиРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+				<InputField name="ПараметрыПоСредамИсполненияСредаИсполнения" id="38">
+					<DataPath>Объект.ПараметрыПоСредамИсполнения.СредаИсполнения</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Среда</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПараметрыПоСредамИсполненияСредаИсполненияКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ПараметрыПоСредамИсполненияСредаИсполненияРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ПараметрыПоСредамИсполненияПуть" id="44">
+					<DataPath>Объект.ПараметрыПоСредамИсполнения.Путь</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПараметрыПоСредамИсполненияПутьКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПараметрыПоСредамИсполненияПутьРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="ПараметрыПоСредамИсполненияАдрес" id="51">
+					<DataPath>Объект.ПараметрыПоСредамИсполнения.Адрес</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПараметрыПоСредамИсполненияАдресКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="ПараметрыПоСредамИсполненияАдресРасширеннаяПодсказка" id="53"/>
+				</InputField>
+				<InputField name="ПараметрыПоСредамИсполненияЛогин" id="54">
+					<DataPath>Объект.ПараметрыПоСредамИсполнения.Логин</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПараметрыПоСредамИсполненияЛогинКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="ПараметрыПоСредамИсполненияЛогинРасширеннаяПодсказка" id="56"/>
+				</InputField>
+				<InputField name="ПараметрыПоСредамИсполненияПароль" id="57">
+					<DataPath>Объект.ПараметрыПоСредамИсполнения.Пароль</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПараметрыПоСредамИсполненияПарольКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="ПараметрыПоСредамИсполненияПарольРасширеннаяПодсказка" id="59"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.AMS_НастройкиVault</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Тест" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Тест</Action>
+		</Command>
+	</Commands>
+</Form>

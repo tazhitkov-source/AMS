@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="ed53d008-0319-4bdf-9da8-275913fc7a20">
+		<Name>AMS</Name>
+		<Code>001</Code>
+		<Description>AMS</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5ed93ea3-a422-4ed8-b4e9-83f291280a9d">
+		<Name>BRMS</Name>
+		<Code>007</Code>
+		<Description>BRMS</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ff4275c7-10d8-454a-8645-3df7598501ff">
+		<Name>MasterAMS</Name>
+		<Code>011</Code>
+		<Description>Master AMS</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eef442a4-e91b-4127-b72b-afbf31c96aa5">
+		<Name>ВИПП</Name>
+		<Code>004</Code>
+		<Description>ВИПП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e86a8432-0773-478b-853a-8af413bf6748">
+		<Name>ВОПП</Name>
+		<Code>003</Code>
+		<Description>ВОПП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="90b6b7ad-f629-4a3f-a5ea-6efca9e1565f">
+		<Name>КИАС</Name>
+		<Code>010</Code>
+		<Description>КИАС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4d79c2d9-d27e-480e-9e91-5d199a7315f8">
+		<Name>СВЖС</Name>
+		<Code>005</Code>
+		<Description>СВЖС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="026f2ce1-af0a-46c3-9b36-277251ba43a6">
+		<Name>СОРВ</Name>
+		<Code>002</Code>
+		<Description>СОРВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="219bc8a4-931b-4cd1-b117-ee7abf2978cb">
+		<Name>ЦССУ</Name>
+		<Code>006</Code>
+		<Description>ЦССУ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="770ff822-fc51-4a4a-9015-487225e57edc">
+		<Name>ЮПро2</Name>
+		<Code>008</Code>
+		<Description>Ю- про 2.0</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="91b35d15-2136-4a99-815b-fdaf33dd0fbc">
+		<Name>ЮПро3</Name>
+		<Code>009</Code>
+		<Description>Ю-Про 3.0</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

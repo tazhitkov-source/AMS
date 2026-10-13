@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ВариантНастройки" id="10">
+			<DataPath>Объект.ВариантНастройки</DataPath>
+			<ContextMenu name="ВариантНастройкиКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВариантНастройкиРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="РежимВыгрузкиСправочников" id="7">
+			<DataPath>Объект.РежимВыгрузкиСправочников</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РежимВыгрузкиСправочниковКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РежимВыгрузкиСправочниковРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="НастройкиПодключения" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки подключения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки подключения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ExtendedTooltip name="НастройкиПодключенияРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="АдресПодключения" id="15">
+					<DataPath>Объект.Адрес</DataPath>
+					<ContextMenu name="АдресПодключенияКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="АдресПодключенияРасширеннаяПодсказка" id="17"/>
+				</InputField>
+				<InputField name="Токен" id="21">
+					<DataPath>Объект.Токен</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТокенКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="ТокенРасширеннаяПодсказка" id="23"/>
+				</InputField>
+				<InputField name="Запрос" id="24">
+					<DataPath>Объект.Запрос</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЗапросКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ЗапросРасширеннаяПодсказка" id="26"/>
+				</InputField>
+				<InputField name="ТипЗапроса" id="27">
+					<DataPath>Объект.ТипЗапроса</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТипЗапросаКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="ТипЗапросаРасширеннаяПодсказка" id="29"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИсключения" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исключения из обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа исключения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ExtendedTooltip name="ГруппаИсключенияРасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<Table name="ИсключенияИзОбмена" id="32">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ИсключенияИзОбмена</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ИсключенияИзОбменаКонтекстноеМеню" id="33"/>
+					<AutoCommandBar name="ИсключенияИзОбменаКоманднаяПанель" id="34">
+						<ChildItems>
+							<Button name="ИсключенияИзОбменаУдалить" id="51">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Item.ИсключенияИзОбмена.StandardCommand.Delete</CommandName>
+								<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+								<ExtendedTooltip name="ИсключенияИзОбменаУдалитьРасширеннаяПодсказка" id="52"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ИсключенияИзОбменаРасширеннаяПодсказка" id="35"/>
+					<SearchStringAddition name="ИсключенияИзОбменаСтрокаПоиска" id="36">
+						<AdditionSource>
+							<Item>ИсключенияИзОбмена</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИсключенияИзОбменаСтрокаПоискаКонтекстноеМеню" id="37"/>
+						<ExtendedTooltip name="ИсключенияИзОбменаСтрокаПоискаРасширеннаяПодсказка" id="38"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ИсключенияИзОбменаСостояниеПросмотра" id="39">
+						<AdditionSource>
+							<Item>ИсключенияИзОбмена</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИсключенияИзОбменаСостояниеПросмотраКонтекстноеМеню" id="40"/>
+						<ExtendedTooltip name="ИсключенияИзОбменаСостояниеПросмотраРасширеннаяПодсказка" id="41"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ИсключенияИзОбменаУправлениеПоиском" id="42">
+						<AdditionSource>
+							<Item>ИсключенияИзОбмена</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ИсключенияИзОбменаУправлениеПоискомКонтекстноеМеню" id="43"/>
+						<ExtendedTooltip name="ИсключенияИзОбменаУправлениеПоискомРасширеннаяПодсказка" id="44"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ИсключенияИзОбменаНомерСтроки" id="45">
+							<DataPath>Объект.ИсключенияИзОбмена.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ИсключенияИзОбменаНомерСтрокиКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="ИсключенияИзОбменаНомерСтрокиРасширеннаяПодсказка" id="47"/>
+						</LabelField>
+						<InputField name="ИсключенияИзОбменаИсключения" id="48">
+							<DataPath>Объект.ИсключенияИзОбмена.Исключения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИсключенияИзОбменаИсключенияКонтекстноеМеню" id="49"/>
+							<ExtendedTooltip name="ИсключенияИзОбменаИсключенияРасширеннаяПодсказка" id="50"/>
+							<Events>
+								<Event name="ChoiceProcessing">ИсключенияИзОбменаИсключенияОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExchangePlanObject.СОРВ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроверитьПодключениеRabbitMQ" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение к RabbitMQ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение rabbit MQ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьПодключениеRabbitMQ</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>CommonCommand.СценарииСинхронизации</Command>
+				<Type>Added</Type>
+				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+		<CommandBar>
+			<Item>
+				<Command>Form.Command.ПроверитьПодключениеRabbitMQ</Command>
+				<Type>Added</Type>
+				<CommandGroup>CommandGroup.ПараметрыСинхронизацииДанных</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
+</Form>

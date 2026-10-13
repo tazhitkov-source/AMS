@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="8f12cfdf-3805-4202-8719-5a501be31b68">
+		<Name>КвартальныйКалендарный</Name>
+		<Code>000000005</Code>
+		<Description>Квартальный (календарный)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c0699dc-f020-4ed1-9d69-49e66f656446">
+		<Name>КвартальныйРасчетный</Name>
+		<Code>000000003</Code>
+		<Description>Квартальный (расчетный)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b32ddc1-a368-4c07-b889-596784ef9807">
+		<Name>Месячный</Name>
+		<Code>000000002</Code>
+		<Description>Месячный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ded5b51e-b08a-4a38-a41f-796213e68a43">
+		<Name>МесячныйКалендарный</Name>
+		<Code>000000004</Code>
+		<Description>Месячный (календарный)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5e832a5a-4085-4fe3-a753-45a449c651fe">
+		<Name>Недельный</Name>
+		<Code>000000001</Code>
+		<Description>Недельный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

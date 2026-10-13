@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="a21392c6-dabf-4937-9b10-bfcb7e67529d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.AMS_ТипыАгентовПоСпособуПродаж" category="Ref">
+				<xr:TypeId>f16e0a35-cad6-452d-9b6d-aa3a4fb6666f</xr:TypeId>
+				<xr:ValueId>c47c5cdf-8007-4c57-b76b-b65e635c05d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.AMS_ТипыАгентовПоСпособуПродаж" category="Manager">
+				<xr:TypeId>b42d8497-7559-4268-95db-c6b99a333fc8</xr:TypeId>
+				<xr:ValueId>185f1bd4-a8bc-4730-870f-53f39a799cbc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.AMS_ТипыАгентовПоСпособуПродаж" category="List">
+				<xr:TypeId>1e86145a-e58e-49f0-b76e-2550b64f0fd6</xr:TypeId>
+				<xr:ValueId>909f563e-6da7-448b-a9d2-2982df1eeb81</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>AMS_ТипыАгентовПоСпособуПродаж</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы агентов по способу продаж</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e6bb0c5f-6a9e-4ce7-966f-561d6bf01f03">
+				<Properties>
+					<Name>АБ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Агент-Брокер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Агент-Брокер</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ddef59a8-a471-4a57-85b1-a019a5cd37a8">
+				<Properties>
+					<Name>АВД</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>АвтоДилер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>АвтоДилер</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7d6d7fb5-ffa6-4fb1-bdbd-e010749cf93e">
+				<Properties>
+					<Name>АЛВ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Агент по личным видам страхования</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Агент по личным видам страхования</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="02046ff5-dac3-4a00-8577-9341f912ea2b">
+				<Properties>
+					<Name>АНД</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Агентства недвижимости</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Агентства недвижимости</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f11275a9-987f-4e82-b5a0-6425d443c60b">
+				<Properties>
+					<Name>АСП</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Агент осуществляющий продажи самостоятельно</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Агент осуществляющий продажи самостоятельно</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="18eeccf0-7456-42fd-95e9-e400d640d71f">
+				<Properties>
+					<Name>БЛВ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Брокер по личным видам страхования</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Брокер по личным видам страхования</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fa2a9aa9-8945-4564-80e1-d7bd154d2933">
+				<Properties>
+					<Name>БНК</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Банк</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Банк</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6dab4fe5-776d-473b-9cfa-d6798aeeb629">
+				<Properties>
+					<Name>ЗСТ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Застройщик</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Застройщик</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b3a8c2d2-cf27-4ef1-84b7-a9b9c8c09a7d">
+				<Properties>
+					<Name>ИПБ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ипотечный брокер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Ипотечный брокер</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f33ca22b-f0ce-4641-bf8f-fd9fad0bd4e6">
+				<Properties>
+					<Name>КРП</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Агент корпоративного блока</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Агент корпоративного блока</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d6117c7f-369c-4a2d-8c6c-b972617d79db">
+				<Properties>
+					<Name>ЛК</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Лизинговая компания</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Лизинговая компания</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0f2e59b6-9422-4a57-94c4-517ca7afbc5b">
+				<Properties>
+					<Name>НФИ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Торговые сети и т.п.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Торговые сети и т.п.</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

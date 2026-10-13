@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="86a94f11-9997-4152-9737-af860bf02547">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Удалить_AMS_ФормыВыплат" category="Ref">
+				<xr:TypeId>41342241-deb8-4c38-a839-85b12cc7722e</xr:TypeId>
+				<xr:ValueId>2d08ca6c-1de4-4575-bcab-d23d5ad4518a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Удалить_AMS_ФормыВыплат" category="Manager">
+				<xr:TypeId>ffc1b0d2-59c8-4294-b575-0c0c41ab4bc4</xr:TypeId>
+				<xr:ValueId>82acc5ba-6f15-43ab-ab59-69d0cfd74a1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Удалить_AMS_ФормыВыплат" category="List">
+				<xr:TypeId>c3d922e0-4843-4960-b931-2aa4ef9027ff</xr:TypeId>
+				<xr:ValueId>db889db2-78ec-4239-9ec7-d11f4197387f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Удалить_AMS_ФормыВыплат</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формы выплат</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формы оплаты</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="57ce7439-a9b0-4a57-8fdf-298f86899c8a">
+				<Properties>
+					<Name>Денежная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Денежная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5c00aa5c-1733-498a-8668-c88dbb8927bf">
+				<Properties>
+					<Name>Ремонт_НаДилере_Исключение_ТоталТС_БезУчетаИзноса</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА дилера по направлению Страховщика, за исключением случаев тотального повреждения ТС. Без учета износа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="727d79b0-e9b5-4d1a-b618-1abcfb4b76fe">
+				<Properties>
+					<Name>Ремонт_ПоВыборуСтрахователя</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА по выбору страхователя</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ee89bf96-9cc1-4315-ac7d-360456fc9477">
+				<Properties>
+					<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9c018cd1-bd82-4821-8f3a-4eaa66fb2a5a">
+				<Properties>
+					<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_С_учетом_Износа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС. C учетом износа (износ не оплачивается Страховщиком)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c4b7645e-c5ee-431a-a084-38cef78cbf6a">
+				<Properties>
+					<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_Без_учета_Износа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС. Без учета износа.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7693ec82-c920-477a-814b-67c1dd2e5b38">
+				<Properties>
+					<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_НаправлениеНаДилера</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА по направлению Страховщика, за исключением случаев тотального повреждения ТС. Страховщик вправе выдать направление на СТОА дилера</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3a312a45-05d1-47e1-84f6-acc01cc4ac76">
+				<Properties>
+					<Name>Ремонт_НаправлениеСтраховщика_Исключение_Тотал_НаправлениеНаДилера_БезУчИзноса</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА по направлению Страховщика,за искл.случаев тотального поврежд. ТС.Страховщик вправе выдать направление на СТОА дилера.Без учета износа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8e3a9bbd-1fec-4fb4-a7d7-a4e45242ed4c">
+				<Properties>
+					<Name>Ремонт_Универсальный_C_УчетомИзноса</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на универсальной СТОА. C учетом износа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="51e208d6-e84c-4ab4-91bb-f488cb2ce997">
+				<Properties>
+					<Name>Ремонт_Универсальный_Без_УчетаИзноса</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на универсальном СТОА. Без учета износа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cccd5c2a-2556-434f-a559-67f654da047f">
+				<Properties>
+					<Name>Ремонт_СТОАДилера_Исключение_Тотал_ИПоврежденияСтеклЭлем</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА дилера по направлению Страховщика, за исключением случаев повреждения стеклянных элементов и тотального повреждения ТС.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d58b2373-3406-493c-9a0e-6ed17e59d89e">
+				<Properties>
+					<Name>Ремонт_СТОАДилера_Исключение_Тотал_СУчетомИзноса</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ремонт на СТОА дилера по направлению Страховщика, за исключением случаев тотального повреждения ТС. C учетом износа (износ не оплачивается Страховщиком).</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="906c3b65-e0b2-4c1f-b40f-00bf7be22fde">
+				<Properties>
+					<Name>ВыплатаСтрахСуммы_НаДату</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выплата страховой суммы на дату страхового случая (при Хищении ТС или при условии передачи поврежденного ТС Страховщику). Выплата страховой суммы на дату страхового случая за вычетом стоимости поврежденного ТС (без передачи поврежденного ТС Страховщику).</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="35e79ac6-2d33-4d2f-84ca-972ee3d836dc">
+				<Properties>
+					<Name>ВыплатаСтрахСуммы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выплата страховой суммы (при Хищении ТС или при условии передачи поврежденного ТС Страховщику).Выплата страховой суммы за вычетом стоимости поврежденного ТС(без передачи поврежденного ТС Страховщику).</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

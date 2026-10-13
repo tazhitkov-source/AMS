@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="362dc756-01a3-4b63-b0d7-e15691e9a4b9">
+		<Name>Активный</Name>
+		<Code>001</Code>
+		<Description>Активный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="55c6c0d6-24e2-4770-b0ed-1ef9a311320a">
+		<Name>АктивныйПредприниматель</Name>
+		<Code>002</Code>
+		<Description>Активный предприниматель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="64e95bc8-5b93-4d95-852a-56117cf920b2">
+		<Name>ПартнерЛидер</Name>
+		<Code>004</Code>
+		<Description>Партнер-лидер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7c5bdf4d-f324-4149-a25a-d988a6bd4173">
+		<Name>ПрофессионалЮгории</Name>
+		<Code>003</Code>
+		<Description>Профессионал Югории</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4db0932e-a631-4162-9e21-89a970c5bd5c">
+		<Name>ТопАгент</Name>
+		<Code>005</Code>
+		<Description>Топ-агент</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

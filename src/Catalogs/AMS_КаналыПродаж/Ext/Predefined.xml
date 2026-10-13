@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="57756020-2d71-4210-adf9-d55e16d610ba">
+		<Name>АКП</Name>
+		<Code>00002</Code>
+		<Description>АКП</Description>
+		<IsFolder>false</IsFolder>
+		<ChildItems>
+			<Item id="09208c9e-199c-4f2d-9de4-e098f07617b8">
+				<Name>БАКП</Name>
+				<Code>00011</Code>
+				<Description>БАКП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7dce502a-371b-4a25-8b1b-04979af9836d">
+				<Name>КАКП</Name>
+				<Code>00017</Code>
+				<Description>КАКП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="82f69f06-ff7c-4918-9765-0df79e014d01">
+		<Name>ДКП</Name>
+		<Code>00001</Code>
+		<Description>ДКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d15b7ee9-3a1e-4476-8409-48dd9baacdeb">
+		<Name>Интернет</Name>
+		<Code>00006</Code>
+		<Description>Интернет</Description>
+		<IsFolder>false</IsFolder>
+		<ChildItems>
+			<Item id="7775c665-e38c-4845-b879-a0d06c6dbc72">
+				<Name>Маркетплейсы</Name>
+				<Code>00026</Code>
+				<Description>Маркетплейсы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a29b9ba3-2f25-40bf-b411-94a2f2338b69">
+				<Name>ОнлайнB2B</Name>
+				<Code>00025</Code>
+				<Description>Онлайн B2B</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3a52ce4e-edff-4ad1-b42d-ac4b2fa3e605">
+				<Name>ОнлайнB2C</Name>
+				<Code>00024</Code>
+				<Description>Онлайн B2C</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0759a694-a5f1-4d75-aed1-22c116fb7d95">
+				<Name>Сайт</Name>
+				<Code>00027</Code>
+				<Description>Сайт</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="1c7c1e96-cde6-4d41-a6e6-fa995278dd27">
+		<Name>ККП</Name>
+		<Code>00004</Code>
+		<Description>ККП</Description>
+		<IsFolder>false</IsFolder>
+		<ChildItems>
+			<Item id="68113bf0-100f-4750-b00a-f0b82507f27d">
+				<Name>БКПКорп</Name>
+				<Code>00022</Code>
+				<Description>БКПКорп</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ded82d05-056b-4ace-8c26-d4de69738502">
+				<Name>БПП</Name>
+				<Code>00013</Code>
+				<Description>БПП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5f25a5cb-292a-4d57-856a-5fcd3a4c0fe9">
+				<Name>ВККП</Name>
+				<Code>00014</Code>
+				<Description>ВККП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="03168dce-e21c-45b1-949c-4afea4dbe854">
+				<Name>ККПVIP</Name>
+				<Code>00028</Code>
+				<Description>ККП VIP</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9f7fb984-073c-47ab-b60d-2a3dc313eb7f">
+				<Name>ККПБрокеры</Name>
+				<Code>00021</Code>
+				<Description>ККПБрокеры</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4113aa1d-31f0-4357-98a4-7ea1c58c6f6c">
+				<Name>ЛККП</Name>
+				<Code>00023</Code>
+				<Description>ЛККП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="b7b036fd-d07f-49b3-8d0b-d4697c9bdabd">
+		<Name>ЛВС</Name>
+		<Code>00008</Code>
+		<Description>ЛВС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="91bb9195-1f47-4f4f-ba65-76d2db310858">
+		<Name>ОКП</Name>
+		<Code>00003</Code>
+		<Description>ОКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5da9ee1f-43e1-4108-b591-1f8fab9edfd3">
+		<Name>ПКП</Name>
+		<Code>00007</Code>
+		<Description>ПКП</Description>
+		<IsFolder>false</IsFolder>
+		<ChildItems>
+			<Item id="005e940b-dd1d-4479-84a2-bcca141b1b4a">
+				<Name>БПКП</Name>
+				<Code>00012</Code>
+				<Description>БПКП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5fef6e8b-9f7f-415e-9833-9adb3d522365">
+				<Name>ИПКП</Name>
+				<Code>00015</Code>
+				<Description>ИПКП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6685f0dc-78b6-4614-af5b-e6896201d756">
+				<Name>ЛПКП</Name>
+				<Code>00018</Code>
+				<Description>ЛПКП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d1f4ba1f-f4e7-410f-9c6d-907b597dfaf2">
+				<Name>НПКП</Name>
+				<Code>00019</Code>
+				<Description>НПКП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

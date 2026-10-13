@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="04be1b89-5e1a-4bcf-a304-a9e08826742d">
+		<Name>ДорожныеИСпециальныеТС</Name>
+		<Code>000000006</Code>
+		<Description>Дорожные и специальные ТС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eba73a06-f5d7-4ec1-84f0-92d1a88ebd5a">
+		<Name>Инкассация</Name>
+		<Code>000000003</Code>
+		<Description>Инкассация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e188beda-db8b-4cbf-ab35-081b16ac2c37">
+		<Name>Личная</Name>
+		<Code>000000001</Code>
+		<Description>Личная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2ad5c809-3883-432c-a470-21c9fdd20d2c">
+		<Name>ПеревозкаОпасныхИЛегковоспламеняющихсяГрузов</Name>
+		<Code>000000008</Code>
+		<Description>Перевозка опасных и легковоспламеняющихся грузов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cba2f5e0-f1c6-4c90-a25f-d089b4a755e9">
+		<Name>ПрокатКраткосрочнаяАренда</Name>
+		<Code>000000009</Code>
+		<Description>Прокат/краткосрочная аренда</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ce0004f7-86df-471f-8b7e-ef112d77df2b">
+		<Name>Прочее</Name>
+		<Code>000000007</Code>
+		<Description>Прочее</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bdd8ab23-be35-4be8-a74c-49df19ed2390">
+		<Name>РегулярныеПассажирскиеПеревозки_ПеревозкиПассажировПоЗаказам</Name>
+		<Code>000000010</Code>
+		<Description>Регулярные пассажирские перевозки перевозки пассажиров по заказам</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ad5f9b61-364b-4b2d-9fd1-6efb2ec9dad9">
+		<Name>СкораяПомощь</Name>
+		<Code>000000004</Code>
+		<Description>Скорая помощь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="397c2788-a8a9-4346-920a-22f29bb2756c">
+		<Name>Такси</Name>
+		<Code>000000005</Code>
+		<Description>Такси</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3295fc2f-9e75-49e7-8158-c4ac7fe380b9">
+		<Name>УчебнаяЕзда</Name>
+		<Code>000000002</Code>
+		<Description>Учебная езда</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="831d8480-2fc6-4355-945d-21001ae56b7c">
+		<Name>ЭкстренныеИКоммунальныеСлужбы</Name>
+		<Code>000000011</Code>
+		<Description>Экстренные и коммунальные службы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

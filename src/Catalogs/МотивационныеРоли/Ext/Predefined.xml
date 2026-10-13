@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="b49973f7-5d48-47ab-bf2f-b74b0e082b37">
+		<Name>ДиректорФилиала1УровняБезДФ2Уровня</Name>
+		<Code>000000002</Code>
+		<Description>Директор филиала 1 уровня</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b88eb6f2-e5f7-4959-aeef-7298acb396c7">
+		<Name>ДиректорФилиала1Уровня</Name>
+		<Code>000000001</Code>
+		<Description>Директор филиала 1 уровня (без ДФ 2 уровня)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9baa8ebd-b3e8-4ada-a70b-36adc6d3ac3c">
+		<Name>ДиректорФилиала2Уровня</Name>
+		<Code>000000003</Code>
+		<Description>Директор филиала 2 уровня</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d86a5792-c54a-4475-b3a4-8e4ca8df2a1a">
+		<Name>ЗаместительДиректораФилиалаАОКП</Name>
+		<Code>000000004</Code>
+		<Description>Заместитель директора филиала АОКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d9424ca5-63a8-45ac-8138-12f706961bea">
+		<Name>ЗаместительДиректораФилиалаДКП</Name>
+		<Code>000000005</Code>
+		<Description>Заместитель директора филиала ДКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2e8b3ed7-1639-4a43-97b4-d0e8eacd3ca3">
+		<Name>ЗаместительДиректораФилиалаККП</Name>
+		<Code>000000006</Code>
+		<Description>Заместитель директора филиала ККП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6bb71cb4-8b21-423f-bccf-ca4e5916a0a8">
+		<Name>ЗаместительДиректораФилиалаЛВС</Name>
+		<Code>000000007</Code>
+		<Description>Заместитель директора филиала ЛВС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="521c8b68-6201-429c-bd50-454e14d3cf45">
+		<Name>ЗаместительДиректораФилиалаПКП</Name>
+		<Code>000000008</Code>
+		<Description>Заместитель директора филиала ПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="504a2c97-11b4-467e-8f74-30f5e8ef6cb6">
+		<Name>МенеджерПоПродажамАКП</Name>
+		<Code>000000009</Code>
+		<Description>Менеджер по продажам АКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3ba382d8-2996-4798-8253-264bc9bc2780">
+		<Name>МенеджерПоПродажамДКП</Name>
+		<Code>000000010</Code>
+		<Description>Менеджер по продажам ДКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4dd12db0-4e9c-4f22-9f86-6d389e70a2f9">
+		<Name>МенеджерПоПродажамИПКП</Name>
+		<Code>000000011</Code>
+		<Description>Менеджер по продажам ИПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="55dc598f-f401-42d9-9139-9aba645c6f74">
+		<Name>МенеджерПоПродажамККП</Name>
+		<Code>000000012</Code>
+		<Description>Менеджер по продажам ККП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="89e73369-7b7f-41fa-83cd-b65a7ec90011">
+		<Name>МенеджерПоПродажамККПВИП</Name>
+		<Code>000000013</Code>
+		<Description>Менеджер по продажам ККП ВИП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="185948f9-9bb5-48c6-af61-e84ce066be98">
+		<Name>МенеджерПоПродажамЛВС</Name>
+		<Code>000000014</Code>
+		<Description>Менеджер по продажам ЛВС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="85fec6b3-ce80-4de6-b547-6a8d5683bd3c">
+		<Name>МенеджерПоПродажамЛККП</Name>
+		<Code>000000015</Code>
+		<Description>Менеджер по продажам ЛККП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f155b005-8902-413a-b257-34a90583abb7">
+		<Name>МенеджерПоПродажамЛПКП</Name>
+		<Code>000000016</Code>
+		<Description>Менеджер по продажам ЛПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d0575a97-75cc-477e-a7da-2135ef3686ba">
+		<Name>МенеджерПоПродажамНПКП</Name>
+		<Code>000000017</Code>
+		<Description>Менеджер по продажам НПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a45b292a-e19f-4b24-8559-a9d595310dd3">
+		<Name>МенеджерПоПродажамОКП</Name>
+		<Code>000000018</Code>
+		<Description>Менеджер по продажам ОКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a8ae49e5-0245-469b-bd27-7e388fa3dccc">
+		<Name>МенеджерПоПродажамПКП</Name>
+		<Code>000000019</Code>
+		<Description>Менеджер по продажам ПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b97825af-9c32-48fc-a878-c925c47a52cd">
+		<Name>МенеджерПоПролонгации</Name>
+		<Code>000000020</Code>
+		<Description>Менеджер по пролонгации</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2a0aedcf-3520-4b1f-834f-03061265adc4">
+		<Name>МенеджерПоСопровождениюПродажЛВС</Name>
+		<Code>000000021</Code>
+		<Description>Менеджер по сопровождению продаж ЛВС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d817c3f6-8f07-4060-9ba0-02b2ac42277a">
+		<Name>НачальникОтделаПоПролонгации</Name>
+		<Code>000000022</Code>
+		<Description>Начальник отдела по пролонгации</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1b645cf4-9488-4680-be3a-ce71bef71e63">
+		<Name>НачальникОтделаПродажАКП</Name>
+		<Code>000000023</Code>
+		<Description>Начальник отдела продаж АКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="08ceb2dd-79a3-4519-8859-baba27bafca2">
+		<Name>НачальникОтделаПродажАКПКвартал</Name>
+		<Code>000000024</Code>
+		<Description>Начальник отдела продаж АКП (квартал)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="291e0c3f-0206-4b46-bac7-e3a7b123210e">
+		<Name>НачальникОтделаПродажДКП</Name>
+		<Code>000000025</Code>
+		<Description>Начальник отдела продаж ДКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d886966f-d353-4e0e-ad63-5d6e4fcc5813">
+		<Name>НачальникОтделаПродажИПКП</Name>
+		<Code>000000026</Code>
+		<Description>Начальник отдела продаж ИПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5e6bb407-d451-4432-90b8-7dc54f537801">
+		<Name>НачальникОтделаПродажИПКПКвартал</Name>
+		<Code>000000027</Code>
+		<Description>Начальник отдела продаж ИПКП (квартал)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="373862a3-c5ce-48f6-a050-d8618ed51bed">
+		<Name>НачальникОтделаПродажККП</Name>
+		<Code>000000028</Code>
+		<Description>Начальник отдела продаж ККП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca1360ff-6656-43e7-9bde-e25ee3d84244">
+		<Name>НачальникОтделаПродажККПКвартал</Name>
+		<Code>000000029</Code>
+		<Description>Начальник отдела продаж ККП (квартал)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2549c3ba-9d50-4811-980f-11f969561432">
+		<Name>НачальникОтделаПродажЛВС</Name>
+		<Code>000000030</Code>
+		<Description>Начальник отдела продаж ЛВС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="920ac5fe-38fe-408e-98a4-c0242c3b9392">
+		<Name>НачальникОтделаПродажЛПКП</Name>
+		<Code>000000031</Code>
+		<Description>Начальник отдела продаж ЛПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1cd6bde0-1e23-4501-bfd7-5adbbb34b1df">
+		<Name>НачальникОтделаПродажНПКП</Name>
+		<Code>000000032</Code>
+		<Description>Начальник отдела продаж НПКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7c8a5ad6-50ea-496a-845a-aaf676bda0a8">
+		<Name>НачальникОтделаПродажОКП</Name>
+		<Code>000000033</Code>
+		<Description>Начальник отдела продаж ОКП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f5c2c627-4875-4430-9c61-de2b9b3d5265">
+		<Name>РуководительССК</Name>
+		<Code>000000034</Code>
+		<Description>Руководитель ССК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1419dafc-4350-4ee5-9525-ef151b05e9c9">
+		<Name>СпециалистССК</Name>
+		<Code>000000035</Code>
+		<Description>Специалист ССК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bf2a3656-442d-470a-bf80-487d478b1950">
+		<Name>СпециалистССКИУчета</Name>
+		<Code>000000036</Code>
+		<Description>Специалист ССК и учета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="66861630-8c6a-46eb-89ea-95bcc612e7ec">
+		<Name>СпециалистССКИЮридическогоСопровождения</Name>
+		<Code>000000037</Code>
+		<Description>Специалист ССК и юридического сопровождения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3e957a08-eddc-4620-94ee-be3d05b039c3">
+		<Name>СпециалистСтраховогоУчета</Name>
+		<Code>000000038</Code>
+		<Description>Специалист страхового учета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fdc1d546-0efa-4399-a87a-06226f2ec666">
+		<Name>СпециалистСтраховогоУчетаСопровожденияПродаж</Name>
+		<Code>000000039</Code>
+		<Description>Специалист страхового учета (сопровождения продаж)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f88b3b95-94de-4b85-b8b0-08887c5122fe">
+		<Name>СпециалистСтраховогоУчетаИСопровожденияПродаж</Name>
+		<Code>000000040</Code>
+		<Description>Специалист страхового учета и сопровождения продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="baa81937-0026-4fb5-af8a-44d9079a619c">
+		<Name>УниверсальныйЗаместительДиректораФилиала</Name>
+		<Code>000000041</Code>
+		<Description>Универсальный заместитель директора филиала</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5730e78f-73aa-43d4-ae12-3d60e83eaa25">
+		<Name>УниверсальныйКлиентскийМенеджер</Name>
+		<Code>000000042</Code>
+		<Description>Универсальный клиентский менеджер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

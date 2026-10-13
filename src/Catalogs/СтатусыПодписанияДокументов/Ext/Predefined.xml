@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="b6649c6b-a924-4386-8322-f298713cc9b5">
+		<Name>ВПроцессеПодписания</Name>
+		<Code>000000002</Code>
+		<Description>В процессе подписания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c7f12059-b677-4d41-a730-e5b086c9e04c">
+		<Name>ОшибкаПодписания</Name>
+		<Code>000000004</Code>
+		<Description>Ошибка подписания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c7cab0f1-3bdf-4748-a69c-fa38a832b80d">
+		<Name>Подписан</Name>
+		<Code>000000003</Code>
+		<Description>Подписан</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e53ea2f9-5b08-4047-b115-912c1c859906">
+		<Name>Подписать</Name>
+		<Code>000000001</Code>
+		<Description>Подписать</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

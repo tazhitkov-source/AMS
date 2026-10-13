@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="b57927d0-3afb-4769-9f04-d1cf610ed45f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.AMS_ВидыСравнения" category="Ref">
+				<xr:TypeId>006d487a-5398-4fb2-89fe-fce56081f67f</xr:TypeId>
+				<xr:ValueId>7888f885-0b50-4773-a4e8-4399ab5c9c3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.AMS_ВидыСравнения" category="Manager">
+				<xr:TypeId>c48e347d-be13-4e58-8276-d09546a2612a</xr:TypeId>
+				<xr:ValueId>c33ae67b-ab3f-4017-b779-385fd3fd80b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.AMS_ВидыСравнения" category="List">
+				<xr:TypeId>6b44e2dd-9d8f-46f8-9267-f19ffc3de1e8</xr:TypeId>
+				<xr:ValueId>03d136c6-ada1-45b6-9b6d-a9d66168ab13</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>AMS_ВидыСравнения</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды сравнения</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="40c690b1-f240-40a7-af7c-691afda31940">
+				<Properties>
+					<Name>Равно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>=</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Равно</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="871a6fe2-542e-49e8-bf9d-457e095e164f">
+				<Properties>
+					<Name>НеРавно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;&gt;</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Не равно</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d00101ed-6097-4650-9b0b-d6a59058b4b0">
+				<Properties>
+					<Name>БольшеИлиРавно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&gt;=</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Больше или равно</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d47d3146-fcef-4a50-8eb7-d1fb6ba88876">
+				<Properties>
+					<Name>МеньшеИлиРавно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;=</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Меньше или равно</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b99b6be3-4114-4764-85a3-b8a676437e6f">
+				<Properties>
+					<Name>Больше</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&gt;</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Больше</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9951b862-e557-4a8a-9dd0-867027c31384">
+				<Properties>
+					<Name>Меньше</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Меньше</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6d073dde-9030-4f1a-bda6-599b1354ecb4">
+				<Properties>
+					<Name>Заполнено</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнено</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f7372fd3-65f2-4e6f-876f-006c6d6eafe4">
+				<Properties>
+					<Name>НеЗаполнено</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не заполнено</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1ddb57fc-1a44-4bee-9ad0-78c476558ecc">
+				<Properties>
+					<Name>ВСписке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В списке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="12084a32-6343-4458-84e2-b779bf6f6c51">
+				<Properties>
+					<Name>НеВСписке</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не в списке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="40a8040a-139c-4f56-bdd3-dc16f8958e0f">
+		<Name>ВводВнесение</Name>
+		<Code>000000001</Code>
+		<Description>Ввод/внесение договоров страхования в учетную базу</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="00d9ae20-665c-4b03-9805-ea28269a797f">
+		<Name>КонсультированиеПоПорядку</Name>
+		<Code>000000010</Code>
+		<Description>Консультирование по порядку оформления документов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2f8a2fe2-5b98-47f8-b003-f3cf7c940f5c">
+		<Name>Контроль</Name>
+		<Code>000000004</Code>
+		<Description>Контроль поступления страховых взносов с привязкой</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="91ead3b8-5868-4ce5-806a-0c1fb4c54958">
+		<Name>ПодготовкаПроверка</Name>
+		<Code>000000002</Code>
+		<Description>Подготовка/проверка  и корректировка реестров/борд</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0be0a12c-f045-413c-9205-94e58c2fdb17">
+		<Name>Проверка</Name>
+		<Code>000000003</Code>
+		<Description>Проверка комплектности документов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ОбновлениеПредопределенных" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление предопределенных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление предопределенных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ОбновлениеПредопределенныхРасширеннаяПодсказка" id="12"/>
+			<ChildItems>
+				<Button name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыСтраховыхПродуктов" id="3">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхAMS_ВидыСтраховыхПродуктов</CommandName>
+					<ExtendedTooltip name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыСтраховыхПродуктовРасширеннаяПодсказка" id="4"/>
+				</Button>
+				<Button name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыСравнения" id="5">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхAMS_ВидыСравнения</CommandName>
+					<ExtendedTooltip name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыСравненияРасширеннаяПодсказка" id="6"/>
+				</Button>
+				<Button name="ЗапуститьОбновлениеПредопределенныхAMS_ПараметрыДополнительныхУсловий" id="7">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхAMS_ПараметрыДополнительныхУсловий</CommandName>
+					<ExtendedTooltip name="ЗапуститьОбновлениеПредопределенныхAMS_ПараметрыДополнительныхУсловийРасширеннаяПодсказка" id="8"/>
+				</Button>
+				<Button name="ЗапуститьОбновлениеПредопределенныхAMS_Организации" id="9">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхAMS_Организации</CommandName>
+					<ExtendedTooltip name="ЗапуститьОбновлениеПредопределенныхAMS_ОрганизацииРасширеннаяПодсказка" id="10"/>
+				</Button>
+				<Button name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыВознаграждений" id="19">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхAMS_ВидыВознаграждений</CommandName>
+					<ExtendedTooltip name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыВознагражденийРасширеннаяПодсказка" id="20"/>
+				</Button>
+				<Button name="ЗаполнитьПредопределенныеМероприятия" id="23">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхAMS_Мероприятия</CommandName>
+					<ExtendedTooltip name="ЗаполнитьПредопределенныеМероприятияРасширеннаяПодсказка" id="24"/>
+				</Button>
+				<Button name="ЗапуститьОбновлениеПредопределенныхСтатусыАгентов" id="25">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхСтатусыАгентов</CommandName>
+					<ExtendedTooltip name="ЗапуститьОбновлениеПредопределенныхСтатусыАгентовРасширеннаяПодсказка" id="26"/>
+				</Button>
+				<Button name="ИнструментыСтатусовАгентов" id="27">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ИнструментыСтатусовАгентов</CommandName>
+					<ExtendedTooltip name="ИнструментыСтатусовАгентовРасширеннаяПодсказка" id="28"/>
+				</Button>
+				<Button name="ЗапуститьОбновлениеПредопределенныхУслугиИКУ" id="33">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗапуститьОбновлениеПредопределенныхУслугиИКУ</CommandName>
+					<ExtendedTooltip name="ЗапуститьОбновлениеПредопределенныхУслугиИКУРасширеннаяПодсказка" id="34"/>
+				</Button>
+				<Button name="СрокДействияПрироста" id="35">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СрокДействияПрироста</CommandName>
+					<ExtendedTooltip name="СрокДействияПриростаРасширеннаяПодсказка" id="36"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="РаботаСДанными" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа с данными</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа с данными</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="РаботаСДаннымиРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<Button name="ПерезаполнитьСтраховойПродукт" id="15">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПерезаполнитьСтраховойПродукт</CommandName>
+					<ExtendedTooltip name="ПерезаполнитьСтраховойПродуктРасширеннаяПодсказка" id="16"/>
+				</Button>
+				<Button name="ЗаполнитьКонстантуОрганизации" id="17">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьКонстантуОрганизации</CommandName>
+					<ExtendedTooltip name="ЗаполнитьКонстантуОрганизацииРасширеннаяПодсказка" id="18"/>
+				</Button>
+				<Button name="ЗаполнитьРеквизитОбязательноеСтрахованиеAMS_СтраховыеПродукты" id="21">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьРеквизитОбязательноеСтрахованиеAMS_СтраховыеПродукты</CommandName>
+					<ExtendedTooltip name="ЗаполнитьРеквизитОбязательноеСтрахованиеAMS_СтраховыеПродуктыРасширеннаяПодсказка" id="22"/>
+				</Button>
+				<Button name="ЗаполнитьНастройкиДляСервисовТЕСТ" id="29">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьНастройкиДляСервисовТЕСТ</CommandName>
+					<ExtendedTooltip name="ЗаполнитьНастройкиДляСервисовТЕСТРасширеннаяПодсказка" id="30"/>
+				</Button>
+				<Button name="ЗаполнитьНастройкиДляСервисовПРОД" id="31">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьНастройкиДляСервисовПРОД</CommandName>
+					<ExtendedTooltip name="ЗаполнитьНастройкиДляСервисовПРОДРасширеннаяПодсказка" id="32"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.AMS_СлужебнаяОбработкаОбновления</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗапуститьОбновлениеПредопределенныхAMS_ПараметрыДополнительныхУсловий" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS параметры дополнительных условий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS параметры дополнительных условий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбновлениеПредопределенныхAMS_ПараметрыДополнительныхУсловий</Action>
+		</Command>
+		<Command name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыСтраховыхПродуктов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS виды страховых продуктов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS виды страховых продуктов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбновлениеПредопределенныхAMS_ВидыСтраховыхПродуктов</Action>
+		</Command>
+		<Command name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыСравнения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS виды сравнения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS виды сравнения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбновлениеПредопределенныхAMS_ВидыСравнения</Action>
+		</Command>
+		<Command name="ЗапуститьОбновлениеПредопределенныхAMS_Организации" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS организации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS организации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбновлениеПредопределенныхAMS_Организации</Action>
+		</Command>
+		<Command name="ПерезаполнитьСтраховойПродукт" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезаполнить страховой продукт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезаполнить страховой продукт</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПерезаполнитьСтраховойПродукт</Action>
+		</Command>
+		<Command name="ЗаполнитьКонстантуОрганизации" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить константу организации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить константу организации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьКонстантуОрганизации</Action>
+		</Command>
+		<Command name="ЗапуститьОбновлениеПредопределенныхAMS_ВидыВознаграждений" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS виды вознаграждений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS виды вознаграждений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбновлениеПредопределенныхAMS_ВидыВознаграждений</Action>
+		</Command>
+		<Command name="ЗаполнитьРеквизитОбязательноеСтрахованиеAMS_СтраховыеПродукты" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизит обязательное страхование AMS страховые продукты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизит обязательное страхование AMS страховые продукты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьРеквизитОбязательноеСтрахованиеAMS_СтраховыеПродукты</Action>
+		</Command>
+		<Command name="ЗапуститьОбновлениеПредопределенныхAMS_Мероприятия" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить Обновление Предопределенных AMS Мероприятия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить константу организации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПредопределенныеМероприятия</Action>
+		</Command>
+		<Command name="ЗапуститьОбновлениеПредопределенныхСтатусыАгентов" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЗапуститьОбновлениеПредопределенныхСтатусыАгентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS параметры дополнительных условий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбновлениеПредопределенныхСтатусыАгентов</Action>
+		</Command>
+		<Command name="ИнструментыСтатусовАгентов" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИнструментыСтатусовАгентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS параметры дополнительных условий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИнструментыСтатусовАгентов</Action>
+		</Command>
+		<Command name="ЗаполнитьНастройкиДляСервисовПРОД" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить настройки для сервисов ПРОД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить настройки для сервисов ПРОД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьНастройкиДляСервисовПРОД</Action>
+		</Command>
+		<Command name="ЗаполнитьНастройкиДляСервисовТЕСТ" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить настройки для сервисов ТЕСТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить настройки для сервисов ПРОД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьНастройкиДляСервисовТЕСТ</Action>
+		</Command>
+		<Command name="ЗапуститьОбновлениеПредопределенныхУслугиИКУ" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЗапуститьОбновлениеПредопределенныхУслугиИКУ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление предопределенных AMS виды вознаграждений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьОбновлениеПредопределенныхУслугиИКУ</Action>
+		</Command>
+		<Command name="СрокДействияПрироста" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок действия прироста</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок действия прироста</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СрокДействияПрироста</Action>
+		</Command>
+	</Commands>
+</Form>

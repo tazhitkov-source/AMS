@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="234d8a03-e4ac-4198-a4a8-8ec31785d685">
+		<Name>Мотоциклы</Name>
+		<Code>000000001</Code>
+		<Description>A (Мотоциклы)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1941534f-1939-4cf7-8d1f-00ac808e6385">
+		<Name>ЛегковыеАвтомобилиФизическихЛиц</Name>
+		<Code>000000003</Code>
+		<Description>B (Легковые автомобили физических лиц)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="11b1a651-d07e-4862-a809-40a3dc564869">
+		<Name>ЛегковыеАвтомобилиЮридическихЛиц</Name>
+		<Code>000000002</Code>
+		<Description>B (Легковые автомобили юридических лиц)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b2ae84ba-84b0-4e0a-b865-0ee1685cc993">
+		<Name>ЛегковыеАвтомобилиИспользуемыеВТакси</Name>
+		<Code>000000004</Code>
+		<Description>B (Легковые автомобили, используемые в качестве такси)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ead800a2-1caa-4bab-81f8-8768e5d71c27">
+		<Name>ЛегковыеАвтомобилиСПрицепом</Name>
+		<Code>000000005</Code>
+		<Description>BE (Легковые автомобили, используемые с прицепом)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e357f4e3-49fc-4952-a1fd-33a30d64f379">
+		<Name>ТС16ТоннИМенее</Name>
+		<Code>000000006</Code>
+		<Description>C (ТС с разрешенной массой 16 тонн и менее)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="40948385-8b1a-4600-91f2-bcdca62c9e3a">
+		<Name>ТС16ТоннИБолее</Name>
+		<Code>000000007</Code>
+		<Description>C (ТС с разрешенной массой более 16 тонн)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="12844229-f0b4-453b-9151-acb3a19a18c8">
+		<Name>ТС16ТоннИМенееСПрицепом</Name>
+		<Code>000000008</Code>
+		<Description>CE (ТС с разрешенной массой 16 тонн и менее, используемые с прицепом)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d85a734e-f5ef-44cc-a1c0-8925e74c7294">
+		<Name>ТС16ТоннИБолееСПрицепом</Name>
+		<Code>000000009</Code>
+		<Description>CE (ТС с разрешенной массой более 16 тонн, используемые с прицепом)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4a775e89-6159-4ff6-a5de-8703eca16acc">
+		<Name>ТСПассажирскихМестБолее16</Name>
+		<Code>000000011</Code>
+		<Description>D (ТС с числом пассажирских мест более 16)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c5edb5e-17bc-43d9-84f9-3049770637e8">
+		<Name>ТСПассажирскихМестДо16</Name>
+		<Code>000000010</Code>
+		<Description>D (ТС с числом пассажирских мест до 16)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b32538e4-45f8-49c0-839c-8323b682d28b">
+		<Name>ТСРегулярныеПассажирскиеПеревозки</Name>
+		<Code>000000012</Code>
+		<Description>D (ТС, используемые на регулярных пассажирских перевозках)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="715da105-d8e9-4a45-880a-392124c79d43">
+		<Name>АвтобусыСПрицепом</Name>
+		<Code>000000013</Code>
+		<Description>DE (Автобусы, используемые с прицепом)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="955e1cb8-8e96-4bd0-9ffd-5eef56a3b94d">
+		<Name>ТракторыСтроительныеИные</Name>
+		<Code>000000014</Code>
+		<Description>F (Тракторы, самоходные дорожно-строительные и иные машины)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4291b1c8-beef-4339-8bdb-c075e41a6a61">
+		<Name>МопедыКвадроциклы</Name>
+		<Code>000000015</Code>
+		<Description>M (Мопеды и легкие квадроциклы)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3d687e7a-27a2-4143-a5a3-6b3c8fcd4db0">
+		<Name>Троллейбусы</Name>
+		<Code>000000016</Code>
+		<Description>Tb (Троллейбусы)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d0e693a0-7100-4de6-98b6-1d9cebe72ad8">
+		<Name>Трамваи</Name>
+		<Code>000000017</Code>
+		<Description>Tm (Трамваи)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a264fe70-c208-40c3-8159-38e5e47bc356">
+		<Name>ПрочиеТС</Name>
+		<Code>000000018</Code>
+		<Description>Прочие ТС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

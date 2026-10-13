@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="54d99d18-a0ce-4f55-87b7-563bb4e676c2">
+		<Name>ДобавлениеПродавца</Name>
+		<Code>000000002</Code>
+		<Description>Добавление продавца</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="788f98da-727c-4872-b0bf-f9a6f46412da">
+		<Name>ИзменениеРазмеровКВ</Name>
+		<Code>000000001</Code>
+		<Description>Изменение размеров КВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

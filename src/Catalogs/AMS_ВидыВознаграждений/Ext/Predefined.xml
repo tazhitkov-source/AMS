@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="02139096-d21e-481f-b5fe-dbe4b963a1a2">
+		<Name>БКВ</Name>
+		<Code>000000001</Code>
+		<Description>Базовое КВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d942152-2d7d-4773-a782-196fb33fce1c">
+		<Name>ВМП</Name>
+		<Code>000000004</Code>
+		<Description>Вознаграждение по мотивационным программам</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fbf9cbbb-4ff0-4f94-a5e4-16cca9cd5c95">
+		<Name>ДКВ</Name>
+		<Code>000000002</Code>
+		<Description>Дополнительное КВ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ecdef6db-a966-4e19-a80a-c09918131589">
+		<Name>КВБ</Name>
+		<Code>000000003</Code>
+		<Description>КВ дополнительного агента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

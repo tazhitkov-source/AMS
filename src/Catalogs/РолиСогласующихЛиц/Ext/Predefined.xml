@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="33d58ff3-a262-4d00-bfd1-5bb1e2383959">
+		<Name>Андеррайтер</Name>
+		<Code>000000001</Code>
+		<Description>Андеррайтер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ed81ff17-4c6d-47df-905f-94280a65211a">
+		<Name>ДиректорФилиала</Name>
+		<Code>000000003</Code>
+		<Description>Директор филиала</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a5e00c90-e2a6-493b-aa08-ce332af31ada">
+		<Name>КураторКаналаПродаж</Name>
+		<Code>000000002</Code>
+		<Description>Куратор канала продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d674303f-c2da-40c2-9704-26804458a276">
+		<Name>РуководительРегиональнойДирекции</Name>
+		<Code>000000004</Code>
+		<Description>Руководитель региональной дирекции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a88cd075-468e-4607-ad33-8d495c0a2a67">
+		<Name>УправляющийПродуктом</Name>
+		<Code>000000005</Code>
+		<Description>Управляющий продуктом</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

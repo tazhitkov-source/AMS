@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="f8643a68-ecd2-4ee2-93b5-7f443dbdfd3e">
+		<Name>Больше</Name>
+		<Code>00005</Code>
+		<Description>Больше</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7dd9bbf8-741f-434b-9f4b-d1f9afc5c11d">
+		<Name>БольшеИлиРавно</Name>
+		<Code>00003</Code>
+		<Description>Больше или равно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f3324e71-0907-4fc9-9a42-8d506bab8f04">
+		<Name>ВСписке</Name>
+		<Code>00009</Code>
+		<Description>В списке</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="756a5a0f-681e-4596-8d5f-1ec3e14120ce">
+		<Name>Заполнено</Name>
+		<Code>00007</Code>
+		<Description>Заполнено</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dcdfc341-9a6e-4ed9-ae52-7596345fe961">
+		<Name>Меньше</Name>
+		<Code>00006</Code>
+		<Description>Меньше</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="42770f93-4c05-4eeb-b773-174330ef00ea">
+		<Name>МеньшеИлиРавно</Name>
+		<Code>00004</Code>
+		<Description>Меньше или равно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d873a90a-567e-47d6-96f6-73e802819658">
+		<Name>НеВСписке</Name>
+		<Code>00010</Code>
+		<Description>Не в списке</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dcbf4822-5490-4070-bee1-de4e42f1c676">
+		<Name>НеЗаполнено</Name>
+		<Code>00008</Code>
+		<Description>Не заполнено</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a3ba7ab0-ac4c-462d-bb8a-6247ec5c177e">
+		<Name>НеРавно</Name>
+		<Code>00002</Code>
+		<Description>Не равно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="481b1a2e-a7b2-407e-8c07-ee8736a6494c">
+		<Name>Равно</Name>
+		<Code>00001</Code>
+		<Description>Равно</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

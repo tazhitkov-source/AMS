@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.18">
+	<Item id="1acd8deb-ba82-4834-910f-721f02d7b9e4">
+		<Name>Банк</Name>
+		<Code>000000032</Code>
+		<Description>Банк</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>12</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="85d53cdc-c344-4ea0-9384-df13dfd845e6">
+		<Name>Верификация</Name>
+		<Code>000000024</Code>
+		<Description>Верификация</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9b33f156-01f5-4cc9-8f00-59f77f3054aa">
+		<Name>ВидСтраховогоПродукта</Name>
+		<Code>000000041</Code>
+		<Description>Вид страхового продукта</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_ВидыСтраховыхПродуктов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d8e6ad0a-e7b1-4402-afbe-c518b22469c0">
+		<Name>ГодСтрахования</Name>
+		<Code>000000033</Code>
+		<Description>Год страхования</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>4</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7e9816cd-43cb-43ce-8dc2-aac7becf92f2">
+		<Name>ДебиторскаяЗадолженность</Name>
+		<Code>000000040</Code>
+		<Description>Дебиторская задолженность</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>10</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e80b81ba-cf0d-4fda-a33c-742b0451916f">
+		<Name>ИННСтрахователя</Name>
+		<Code>000000042</Code>
+		<Description>ИНН</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>12</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a68e701b-d457-4711-af1c-4848ab782609">
+		<Name>КатегорияДоговора</Name>
+		<Code>000000022</Code>
+		<Description>Категория договора</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_КатегорииДоговоров</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8eba5fb2-3dc3-4789-bdc8-ed746ddf52d1">
+		<Name>КБМ</Name>
+		<Code>000000031</Code>
+		<Description>КБМ</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>3</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6b9d7687-c335-4e7b-aa49-1248675a503e">
+		<Name>НовыйБизнес</Name>
+		<Code>000000043</Code>
+		<Description>Новый бизнес</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="02e4dd81-7064-40da-870e-a0ed63d729db">
+		<Name>Премия</Name>
+		<Code>000000019</Code>
+		<Description>Премия</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>12</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="42cb40d2-82b6-436b-bc3c-fa6394ec7fdb">
+		<Name>ПрограммаПеревод</Name>
+		<Code>000000026</Code>
+		<Description>Программа перевод</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="18a12885-907e-43f3-b4df-4b848997b5e0">
+		<Name>ПрограммаПереход</Name>
+		<Code>000000034</Code>
+		<Description>Программа переход</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="957db217-98f7-481d-8581-3d5fbe4e3f7a">
+		<Name>Пролонгация</Name>
+		<Code>000000023</Code>
+		<Description>Пролонгация</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7bcba0a1-91cc-41d6-878c-28a40be4f7ce">
+		<Name>РегионСобственника</Name>
+		<Code>000000037</Code>
+		<Description>Регион собственника</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_ТерриторииСтрахования</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="78fd80fe-e9a0-458a-93e7-b273e593a6c8">
+		<Name>СтраховойПродукт</Name>
+		<Code>000000004</Code>
+		<Description>Страховой продукт</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_СтраховыеПродукты</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="12391ecf-2d79-4dd2-8f3a-48aa3425cf36">
+		<Name>СтраховойРиск</Name>
+		<Code>000000020</Code>
+		<Description>Страховой риск</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_СтраховыеРиски</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="34b43ac1-ef1f-4b96-ae84-657f7e21b29a">
+		<Name>ТипАгента</Name>
+		<Code>000000027</Code>
+		<Description>Тип агента</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.AMS_ТипыКонтрагентов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ab3c1b77-76b5-4933-9b8b-6d17c5ef0ad4">
+		<Name>ТипКонтрагентаСобственника</Name>
+		<Code>000000038</Code>
+		<Description>Тип контрагента (собственника)</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.AMS_ТипыКонтрагентов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="400f1c7b-c3fc-4088-8c7a-81887e1c661d">
+		<Name>ТипКонтрагентаСтрахователя</Name>
+		<Code>000000029</Code>
+		<Description>Тип контрагента (страхователя)</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.AMS_ТипыКонтрагентов</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="21ac5470-9201-43cc-b5bf-b7288e21306c">
+		<Name>ТипТС</Name>
+		<Code>000000036</Code>
+		<Description>Тип ТС</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_КатегорииТС</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="389fe2cb-97f3-4fb3-afee-d57aac55826e">
+		<Name>ФормаВыплаты</Name>
+		<Code>000000028</Code>
+		<Description>Форма выплаты</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_ФормыВыплат</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1632a76c-ae21-4ca8-b2c3-b74a1c4cbfc3">
+		<Name>Франшиза</Name>
+		<Code>000000025</Code>
+		<Description>Франшиза</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d5c0f285-3346-432d-95f9-342ef3415fdd">
+		<Name>ЦельИспользованияТС</Name>
+		<Code>000000035</Code>
+		<Description>Цель использования ТС</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.AMS_ЦелиИспользованияТС</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be06954f-a7c7-4477-95c2-dd58d68b03e5">
+		<Name>ЭтоЕОСАГО</Name>
+		<Code>000000030</Code>
+		<Description>Это Е-ОСАГО</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="2c90d81d-811e-480a-96d0-0a755fbe918b">
+		<Name>ВЗР</Name>
+		<Code>000000018</Code>
+		<Description>ВЗР</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8de5ec7-4637-4ba7-87ba-c093525cfe95">
+		<Name>Грузы</Name>
+		<Code>000000011</Code>
+		<Description>Грузы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d14019cd-d483-46fd-98a8-ebfa6abc53df">
+		<Name>ДГО</Name>
+		<Code>000000009</Code>
+		<Description>ДГО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f62cb541-708b-4d0d-b6bb-58a9ceeffda9">
+		<Name>ЗК</Name>
+		<Code>000000014</Code>
+		<Description>ЗК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="57982f22-0711-446e-beeb-700ea0b2c140">
+		<Name>ЗКАСКО</Name>
+		<Code>000000010</Code>
+		<Description>ЗКАСКО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4c3e3c53-1155-4956-915f-728ca32a0e4a">
+		<Name>Имущество</Name>
+		<Code>000000016</Code>
+		<Description>Имущество</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="95cfd9fb-524b-4c7b-a7d7-0470093e9ae8">
+		<Name>Ипотека</Name>
+		<Code>000000017</Code>
+		<Description>Ипотека</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bf9ec60a-5e53-408d-9d7e-215858f3f113">
+		<Name>КАСКО</Name>
+		<Code>000000002</Code>
+		<Description>КАСКО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="86305bc8-d396-4036-8dca-bc2f1ac3bea8">
+		<Name>КУГИ</Name>
+		<Code>000000012</Code>
+		<Description>КУГИ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c401751-5bc5-4727-ba83-7ba6017b84d8">
+		<Name>ЛичноеCтрахование</Name>
+		<Code>000000015</Code>
+		<Description>Личное cтрахование</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ac8f8fa8-ff3e-4835-99f7-d96901d03179">
+		<Name>МиниКАСКО</Name>
+		<Code>000000003</Code>
+		<Description>Мини- КАСКО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d334d209-bbe4-421b-a2e7-aac6c05da0be">
+		<Name>НС</Name>
+		<Code>000000007</Code>
+		<Description>НС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="18ead660-4ddb-42bf-bdbe-8995beb082e9">
+		<Name>ОСАГО</Name>
+		<Code>000000001</Code>
+		<Description>ОСАГО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="46c12d5a-61bb-41de-9841-49afa0c8ceb3">
+		<Name>ОСГОП</Name>
+		<Code>000000004</Code>
+		<Description>ОСГОП</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9d226266-5d7c-4a8f-a8df-09dbfcb21ae7">
+		<Name>ОСОПО</Name>
+		<Code>000000005</Code>
+		<Description>ОСОПО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b1dc4e62-72a0-40c9-ab73-c7374f969fc3">
+		<Name>Ответственность</Name>
+		<Code>000000006</Code>
+		<Description>Ответственность</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="66513d53-1aa4-4e7b-a250-b8941087d9fe">
+		<Name>ПредпринимательскиеРиски</Name>
+		<Code>000000008</Code>
+		<Description>Предпринимательские риски</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4c9748c4-c71e-48d2-adcf-d8f499422c71">
+		<Name>Прочее</Name>
+		<Code>000000013</Code>
+		<Description>Прочее</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

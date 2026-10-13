@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Subsystem uuid="3d4e47fd-724d-4ad4-b98e-7cbef26c5f53">
+		<Properties>
+			<Name>AMS_Агенты</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Агенты</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Управление Агентами</Comment>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>StdPicture.User</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_Агенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_КаналыПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_Подразделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_ПользователиСистем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_Продавцы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_СотрудникиОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_Филиалы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_ФункциональныеПринадлежности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.AMS_ИзменениеУсловийАгентскогоДоговора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.AMS_УсловияДоговораАгента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_КатегорииПродавца</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ВидТерриторииКонтрагента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ПолФизическогоЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ОснованияИзмененияАД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ПризнакУстановкиЛимитаАД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ПричиныРасторженияАД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_РасписаниеВыплатыКВ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_СтавкиНДС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_СтатусыАД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ТипыАгентовПоСпособуПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ТипыСтраховыхПродуктовПоНС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.AMS_ТипыКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.AMS_ВыгрузкаЗагрузкаДанныхЦССУ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_АгентскиеДоговоры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.AMS_ИзмененияДанныхПродавцов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.AMS_ИнформацияОПродавце</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.AMS_КатегорияАгентовДляПоказателейКачества</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ГрупповаяОбработкаПродавцов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Кураторы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СоответствиеКураторовАгентам</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>Продавцы</Subsystem>
+			<Subsystem>Договоры</Subsystem>
+			<Subsystem>ИндивидуальныеКонсультационныеУслуги</Subsystem>
+			<Subsystem>РасчетКомиссииВознаграждения</Subsystem>
+			<Subsystem>СправочнаяИнформация</Subsystem>
+			<Subsystem>Банки</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>
